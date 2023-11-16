@@ -1,0 +1,4 @@
+{
+		"coc.preferences.formatOnSaveFiletypes": ["python"],
+		"pyright.testing.provider": "pytest"
+}

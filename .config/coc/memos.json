@@ -1,0 +1,1356 @@
+{
+  "coc-python|global": {
+    "INTERPRETERS_CACHE_v3_CondaEnvFileService": [],
+    "INTERPRETERS_CACHE_v3_CondaEnvService": [],
+    "/opt/homebrew/bin/python3.9.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/opt/homebrew/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.13-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 13,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.13-final"
+        },
+        "sysPrefix": "/opt/homebrew/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "eeabf552b28a50bddba8687ae8d1396411bbf97492155547e34cb7a6e9187c7729d49ede9905998fc18ec97a98fc209891762948094eff7b94e4e30e710d739b"
+      },
+      "expiry": 1662818579904
+    },
+    "/opt/homebrew/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/opt/homebrew/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.13-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 13,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.13-final"
+        },
+        "sysPrefix": "/opt/homebrew/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "c7f77c0a79f6251699be8520dfdb24a22b2b0cc54ee6d70642268bee5d328b27b80046c1f1f14abda93b345bec2798c280517a81dcbcc775af34ed8afd65839a"
+      },
+      "expiry": 1662818579904
+    },
+    "/opt/homebrew/opt/python@3.9/bin/python3.9.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/opt/homebrew/opt/python@3.9/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.13-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 13,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.13-final"
+        },
+        "sysPrefix": "/opt/homebrew/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "f09ec063c3ce973c88e3b2f9681e5374bb60f005a0d0c112273f7fada17140e690beabf956684078e175ac61dacd945fc6111e1dc81ab1f82a24bb1a70f61c9c"
+      },
+      "expiry": 1662818579921
+    },
+    "INTERPRETERS_CACHE_v3_CurrentPathService": [
+      {
+        "architecture": 3,
+        "path": "/opt/homebrew/opt/python@3.9/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.13-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 13,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.13-final"
+        },
+        "sysPrefix": "/opt/homebrew/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "f09ec063c3ce973c88e3b2f9681e5374bb60f005a0d0c112273f7fada17140e690beabf956684078e175ac61dacd945fc6111e1dc81ab1f82a24bb1a70f61c9c",
+        "type": "Unknown"
+      }
+    ],
+    "InterpreterAutoSeletionRule-currentPath": {
+      "architecture": 3,
+      "path": "/opt/homebrew/opt/python@3.9/bin/python3.9",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.13-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 13,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.13-final"
+      },
+      "sysPrefix": "/opt/homebrew/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+      "fileHash": "f09ec063c3ce973c88e3b2f9681e5374bb60f005a0d0c112273f7fada17140e690beabf956684078e175ac61dacd945fc6111e1dc81ab1f82a24bb1a70f61c9c",
+      "type": "Unknown"
+    },
+    "preferredGlobalPyInterpreter": {
+      "architecture": 3,
+      "path": "/Users/vlad-balance-pl/.pyenv/versions/3.10.2/bin/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.10.2-final",
+        "major": 3,
+        "minor": 10,
+        "patch": 2,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.10.2-final"
+      },
+      "sysPrefix": "/Users/vlad-balance-pl/.pyenv/versions/3.10.2",
+      "fileHash": "4b8d479f37a7b453b46631a4c864242ce3540312d7ee64abb6c4e3d67c2bb3ceea68a27e5ebcb47f5e2bd54c1ff69067a41c1827250e6bbed1a0aafccf734882",
+      "envName": "3.10.2",
+      "type": "Pyenv",
+      "displayName": "Python 3.10.2 64-bit ('3.10.2': pyenv)"
+    },
+    "/opt/homebrew/opt/python@3.9/bin/python3.9.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "f09ec063c3ce973c88e3b2f9681e5374bb60f005a0d0c112273f7fada17140e690beabf956684078e175ac61dacd945fc6111e1dc81ab1f82a24bb1a70f61c9c",
+        "info": {
+          "architecture": 3,
+          "path": "/opt/homebrew/opt/python@3.9/bin/python3.9",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.9.13-final",
+            "major": 3,
+            "minor": 9,
+            "patch": 13,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.9.13-final"
+          },
+          "sysPrefix": "/opt/homebrew/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+          "fileHash": "f09ec063c3ce973c88e3b2f9681e5374bb60f005a0d0c112273f7fada17140e690beabf956684078e175ac61dacd945fc6111e1dc81ab1f82a24bb1a70f61c9c",
+          "type": "Unknown",
+          "displayName": "Python 3.9.13 64-bit"
+        }
+      },
+      "expiry": 1662836944346
+    },
+    "/usr/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.9-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.9-final"
+        },
+        "sysPrefix": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8",
+        "fileHash": "e52ad9f6bfe347f955261252f3eccfb7ded9e6efe63747f0b2ecbae663838f8627ac8dc927d9eb307ae361bb48c276c9cecb5fd986a63188b90b7ace06d09b59"
+      },
+      "expiry": 1662818579980
+    },
+    "INTERPRETERS_CACHE_v3_KnownPathsService": [
+      {
+        "architecture": 3,
+        "path": "/opt/homebrew/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.13-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 13,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.13-final"
+        },
+        "sysPrefix": "/opt/homebrew/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "c7f77c0a79f6251699be8520dfdb24a22b2b0cc54ee6d70642268bee5d328b27b80046c1f1f14abda93b345bec2798c280517a81dcbcc775af34ed8afd65839a",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/opt/homebrew/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.13-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 13,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.13-final"
+        },
+        "sysPrefix": "/opt/homebrew/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "eeabf552b28a50bddba8687ae8d1396411bbf97492155547e34cb7a6e9187c7729d49ede9905998fc18ec97a98fc209891762948094eff7b94e4e30e710d739b",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.9-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.9-final"
+        },
+        "sysPrefix": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8",
+        "fileHash": "e52ad9f6bfe347f955261252f3eccfb7ded9e6efe63747f0b2ecbae663838f8627ac8dc927d9eb307ae361bb48c276c9cecb5fd986a63188b90b7ace06d09b59",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.9-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.9-final"
+        },
+        "sysPrefix": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8",
+        "fileHash": "e52ad9f6bfe347f955261252f3eccfb7ded9e6efe63747f0b2ecbae663838f8627ac8dc927d9eb307ae361bb48c276c9cecb5fd986a63188b90b7ace06d09b59",
+        "type": "Unknown"
+      }
+    ],
+    "/opt/homebrew/opt/python@3.9/bin/python3.9.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.9.13 64-bit",
+        "hash": "f09ec063c3ce973c88e3b2f9681e5374bb60f005a0d0c112273f7fada17140e690beabf956684078e175ac61dacd945fc6111e1dc81ab1f82a24bb1a70f61c9c-8c6594fecdeb6d4ccddb084420a5f7c2"
+      },
+      "expiry": 1662836944335
+    },
+    "/Users/vlad-balance-pl/.pyenv/versions/3.10.2/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/vlad-balance-pl/.pyenv/versions/3.10.2/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.10.2-final",
+          "major": 3,
+          "minor": 10,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.10.2-final"
+        },
+        "sysPrefix": "/Users/vlad-balance-pl/.pyenv/versions/3.10.2",
+        "fileHash": "4b8d479f37a7b453b46631a4c864242ce3540312d7ee64abb6c4e3d67c2bb3ceea68a27e5ebcb47f5e2bd54c1ff69067a41c1827250e6bbed1a0aafccf734882"
+      },
+      "expiry": 1662818580322
+    },
+    "/Users/vlad-balance-pl/.pyenv/versions/3.10.2/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/vlad-balance-pl/.pyenv/versions/3.10.2/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.10.2-final",
+          "major": 3,
+          "minor": 10,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.10.2-final"
+        },
+        "sysPrefix": "/Users/vlad-balance-pl/.pyenv/versions/3.10.2",
+        "fileHash": "01c5adf70160017274a26edcbf8b507bc5895983b4623d6d6a32b5a944c8beeb7a964664811302fe6410bae072777da51c454af167a679407fdf6f817e5e1cd4"
+      },
+      "expiry": 1662818580322
+    },
+    "/Users/vlad-balance-pl/.pyenv/versions/3.10.2/bin/python3.10.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/vlad-balance-pl/.pyenv/versions/3.10.2/bin/python3.10",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.10.2-final",
+          "major": 3,
+          "minor": 10,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.10.2-final"
+        },
+        "sysPrefix": "/Users/vlad-balance-pl/.pyenv/versions/3.10.2",
+        "fileHash": "361b69e4ae344571f6389924eff0037523355d9d342163a2ed726eb594fac5667e1993628420983bc468f694925db4e284c5cb055463b79d40af4b9d842a760c"
+      },
+      "expiry": 1662818580323
+    },
+    "/Users/vlad-balance-pl/.pyenv/versions/3.9.10/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/vlad-balance-pl/.pyenv/versions/3.9.10/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.10-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 10,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.10-final"
+        },
+        "sysPrefix": "/Users/vlad-balance-pl/.pyenv/versions/3.9.10",
+        "fileHash": "f15d5b7e531a1112cdce7220867e7e7339e9a7acb31d5aeadb0dd770d4310775217f9375e9687c89d443a44563a2d9f3846e1a59cfbc780854e697c917675be9"
+      },
+      "expiry": 1662818581063
+    },
+    "/Users/vlad-balance-pl/.pyenv/versions/3.9.10/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/vlad-balance-pl/.pyenv/versions/3.9.10/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.10-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 10,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.10-final"
+        },
+        "sysPrefix": "/Users/vlad-balance-pl/.pyenv/versions/3.9.10",
+        "fileHash": "75680afe157b5a1a286a128fde77199df44bbe09fed7fbe38d1d589161551680d285351566b01dee7785450ce0a78ac1027f6e7cdc139fb5f11e1048c089537f"
+      },
+      "expiry": 1662818581179
+    },
+    "/Users/vlad-balance-pl/.pyenv/versions/3.9.10/bin/python3.9.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/vlad-balance-pl/.pyenv/versions/3.9.10/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.10-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 10,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.10-final"
+        },
+        "sysPrefix": "/Users/vlad-balance-pl/.pyenv/versions/3.9.10",
+        "fileHash": "9923614786a8122cae3246c74e25d89249a767b2098fd5b56543883eecd4b77b510ed836f931984aa6ab32020ccabc8fe4bf03117a2a7783fe53a5f7ab1abaea"
+      },
+      "expiry": 1662818581180
+    },
+    "/Users/vlad-balance-pl/.pyenv/versions/3.9.11/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/vlad-balance-pl/.pyenv/versions/3.9.11/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.11-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 11,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.11-final"
+        },
+        "sysPrefix": "/Users/vlad-balance-pl/.pyenv/versions/3.9.11",
+        "fileHash": "b96b80b75bd1757525a7bf7d6732c50fd9aa5f0b43f9215b01c5d8adb078aaaba2a4a241459101e1b05209c75c0cd36bf34cffeff09041412b9cc666ebb2eced"
+      },
+      "expiry": 1662818581468
+    },
+    "/Users/vlad-balance-pl/.pyenv/versions/3.9.11/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/vlad-balance-pl/.pyenv/versions/3.9.11/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.11-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 11,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.11-final"
+        },
+        "sysPrefix": "/Users/vlad-balance-pl/.pyenv/versions/3.9.11",
+        "fileHash": "70cba59e333048dc0797e41faa08318fcf1ab1c52d894f7050aa37becb715a5d92f03eed606dc3d1743fe7855ca64a4fe116f7bb7b99fb0d3d69a680951bc88f"
+      },
+      "expiry": 1662818581475
+    },
+    "/Users/vlad-balance-pl/.pyenv/versions/3.9.11/bin/python3.9.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/vlad-balance-pl/.pyenv/versions/3.9.11/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.11-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 11,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.11-final"
+        },
+        "sysPrefix": "/Users/vlad-balance-pl/.pyenv/versions/3.9.11",
+        "fileHash": "aaf2cd818b5b2265955324187337d735b2881e6b75a35430538bfaf461e5cc4b39894bc65786cdf0e5b723286e34c64f68f3092fdf43ed1936410c6ed007a704"
+      },
+      "expiry": 1662818581498
+    },
+    "INTERPRETERS_CACHE_v3_VirtualEnvService": [
+      {
+        "architecture": 3,
+        "path": "/Users/vlad-balance-pl/.pyenv/versions/3.10.2/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.10.2-final",
+          "major": 3,
+          "minor": 10,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.10.2-final"
+        },
+        "sysPrefix": "/Users/vlad-balance-pl/.pyenv/versions/3.10.2",
+        "fileHash": "4b8d479f37a7b453b46631a4c864242ce3540312d7ee64abb6c4e3d67c2bb3ceea68a27e5ebcb47f5e2bd54c1ff69067a41c1827250e6bbed1a0aafccf734882",
+        "envName": "3.10.2",
+        "type": "Pyenv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/vlad-balance-pl/.pyenv/versions/3.10.2/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.10.2-final",
+          "major": 3,
+          "minor": 10,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.10.2-final"
+        },
+        "sysPrefix": "/Users/vlad-balance-pl/.pyenv/versions/3.10.2",
+        "fileHash": "01c5adf70160017274a26edcbf8b507bc5895983b4623d6d6a32b5a944c8beeb7a964664811302fe6410bae072777da51c454af167a679407fdf6f817e5e1cd4",
+        "envName": "3.10.2",
+        "type": "Pyenv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/vlad-balance-pl/.pyenv/versions/3.10.2/bin/python3.10",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.10.2-final",
+          "major": 3,
+          "minor": 10,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.10.2-final"
+        },
+        "sysPrefix": "/Users/vlad-balance-pl/.pyenv/versions/3.10.2",
+        "fileHash": "361b69e4ae344571f6389924eff0037523355d9d342163a2ed726eb594fac5667e1993628420983bc468f694925db4e284c5cb055463b79d40af4b9d842a760c",
+        "envName": "3.10.2",
+        "type": "Pyenv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/vlad-balance-pl/.pyenv/versions/3.9.10/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.10-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 10,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.10-final"
+        },
+        "sysPrefix": "/Users/vlad-balance-pl/.pyenv/versions/3.9.10",
+        "fileHash": "75680afe157b5a1a286a128fde77199df44bbe09fed7fbe38d1d589161551680d285351566b01dee7785450ce0a78ac1027f6e7cdc139fb5f11e1048c089537f",
+        "envName": "3.9.10",
+        "type": "Pyenv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/vlad-balance-pl/.pyenv/versions/3.9.10/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.10-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 10,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.10-final"
+        },
+        "sysPrefix": "/Users/vlad-balance-pl/.pyenv/versions/3.9.10",
+        "fileHash": "f15d5b7e531a1112cdce7220867e7e7339e9a7acb31d5aeadb0dd770d4310775217f9375e9687c89d443a44563a2d9f3846e1a59cfbc780854e697c917675be9",
+        "envName": "3.9.10",
+        "type": "Pyenv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/vlad-balance-pl/.pyenv/versions/3.9.10/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.10-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 10,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.10-final"
+        },
+        "sysPrefix": "/Users/vlad-balance-pl/.pyenv/versions/3.9.10",
+        "fileHash": "9923614786a8122cae3246c74e25d89249a767b2098fd5b56543883eecd4b77b510ed836f931984aa6ab32020ccabc8fe4bf03117a2a7783fe53a5f7ab1abaea",
+        "envName": "3.9.10",
+        "type": "Pyenv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/vlad-balance-pl/.pyenv/versions/3.9.11/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.11-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 11,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.11-final"
+        },
+        "sysPrefix": "/Users/vlad-balance-pl/.pyenv/versions/3.9.11",
+        "fileHash": "b96b80b75bd1757525a7bf7d6732c50fd9aa5f0b43f9215b01c5d8adb078aaaba2a4a241459101e1b05209c75c0cd36bf34cffeff09041412b9cc666ebb2eced",
+        "envName": "3.9.11",
+        "type": "Pyenv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/vlad-balance-pl/.pyenv/versions/3.9.11/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.11-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 11,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.11-final"
+        },
+        "sysPrefix": "/Users/vlad-balance-pl/.pyenv/versions/3.9.11",
+        "fileHash": "70cba59e333048dc0797e41faa08318fcf1ab1c52d894f7050aa37becb715a5d92f03eed606dc3d1743fe7855ca64a4fe116f7bb7b99fb0d3d69a680951bc88f",
+        "envName": "3.9.11",
+        "type": "Pyenv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/vlad-balance-pl/.pyenv/versions/3.9.11/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.11-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 11,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.11-final"
+        },
+        "sysPrefix": "/Users/vlad-balance-pl/.pyenv/versions/3.9.11",
+        "fileHash": "aaf2cd818b5b2265955324187337d735b2881e6b75a35430538bfaf461e5cc4b39894bc65786cdf0e5b723286e34c64f68f3092fdf43ed1936410c6ed007a704",
+        "envName": "3.9.11",
+        "type": "Pyenv"
+      }
+    ],
+    "PipEnvInformation": [],
+    "/Users/vlad-balance-pl/.pyenv/versions/3.10.2/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.10.2 64-bit ('3.10.2': pyenv)",
+        "hash": "4b8d479f37a7b453b46631a4c864242ce3540312d7ee64abb6c4e3d67c2bb3ceea68a27e5ebcb47f5e2bd54c1ff69067a41c1827250e6bbed1a0aafccf734882-4899df6b76382beb4528e78a49b1446e"
+      },
+      "expiry": 1662818581518
+    },
+    "/Users/vlad-balance-pl/.pyenv/versions/3.9.10/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.9.10 64-bit ('3.9.10': pyenv)",
+        "hash": "75680afe157b5a1a286a128fde77199df44bbe09fed7fbe38d1d589161551680d285351566b01dee7785450ce0a78ac1027f6e7cdc139fb5f11e1048c089537f-5d9bede3130e6085ddcfd17132eb9515"
+      },
+      "expiry": 1662818581519
+    },
+    "/Users/vlad-balance-pl/.pyenv/versions/3.9.11/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.9.11 64-bit ('3.9.11': pyenv)",
+        "hash": "b96b80b75bd1757525a7bf7d6732c50fd9aa5f0b43f9215b01c5d8adb078aaaba2a4a241459101e1b05209c75c0cd36bf34cffeff09041412b9cc666ebb2eced-259391a7b22f730931cfc73a4d4f1e89"
+      },
+      "expiry": 1662818581519
+    },
+    "/opt/homebrew/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.9.13 64-bit",
+        "hash": "c7f77c0a79f6251699be8520dfdb24a22b2b0cc54ee6d70642268bee5d328b27b80046c1f1f14abda93b345bec2798c280517a81dcbcc775af34ed8afd65839a-ead66f11adf0d9b6d4af880fb384ce8a"
+      },
+      "expiry": 1662818581520
+    },
+    "/usr/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.8.9 64-bit",
+        "hash": "e52ad9f6bfe347f955261252f3eccfb7ded9e6efe63747f0b2ecbae663838f8627ac8dc927d9eb307ae361bb48c276c9cecb5fd986a63188b90b7ace06d09b59-2044498b9cf070c60e9eebdc179bba49"
+      },
+      "expiry": 1662818581523
+    },
+    "InterpreterAutoSeletionRule-system": {
+      "architecture": 3,
+      "path": "/Users/vlad-balance-pl/.pyenv/versions/3.10.2/bin/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.10.2-final",
+        "major": 3,
+        "minor": 10,
+        "patch": 2,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.10.2-final"
+      },
+      "sysPrefix": "/Users/vlad-balance-pl/.pyenv/versions/3.10.2",
+      "fileHash": "4b8d479f37a7b453b46631a4c864242ce3540312d7ee64abb6c4e3d67c2bb3ceea68a27e5ebcb47f5e2bd54c1ff69067a41c1827250e6bbed1a0aafccf734882",
+      "envName": "3.10.2",
+      "type": "Pyenv",
+      "displayName": "Python 3.10.2 64-bit ('3.10.2': pyenv)"
+    },
+    "/Users/vlad-balance-pl/.pyenv/versions/3.10.2/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "4b8d479f37a7b453b46631a4c864242ce3540312d7ee64abb6c4e3d67c2bb3ceea68a27e5ebcb47f5e2bd54c1ff69067a41c1827250e6bbed1a0aafccf734882",
+        "info": {
+          "architecture": 3,
+          "path": "/Users/vlad-balance-pl/.pyenv/versions/3.10.2/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.10.2-final",
+            "major": 3,
+            "minor": 10,
+            "patch": 2,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.10.2-final"
+          },
+          "sysPrefix": "/Users/vlad-balance-pl/.pyenv/versions/3.10.2",
+          "fileHash": "4b8d479f37a7b453b46631a4c864242ce3540312d7ee64abb6c4e3d67c2bb3ceea68a27e5ebcb47f5e2bd54c1ff69067a41c1827250e6bbed1a0aafccf734882",
+          "envName": "3.10.2",
+          "type": "Pyenv",
+          "displayName": "Python 3.10.2 64-bit ('3.10.2': pyenv)"
+        }
+      },
+      "expiry": 1662818581536
+    },
+    "/Users/vlad-balance-pl/.pyenv/versions/3.9.10/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "75680afe157b5a1a286a128fde77199df44bbe09fed7fbe38d1d589161551680d285351566b01dee7785450ce0a78ac1027f6e7cdc139fb5f11e1048c089537f",
+        "info": {
+          "architecture": 3,
+          "path": "/Users/vlad-balance-pl/.pyenv/versions/3.9.10/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.9.10-final",
+            "major": 3,
+            "minor": 9,
+            "patch": 10,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.9.10-final"
+          },
+          "sysPrefix": "/Users/vlad-balance-pl/.pyenv/versions/3.9.10",
+          "fileHash": "75680afe157b5a1a286a128fde77199df44bbe09fed7fbe38d1d589161551680d285351566b01dee7785450ce0a78ac1027f6e7cdc139fb5f11e1048c089537f",
+          "envName": "3.9.10",
+          "type": "Pyenv",
+          "displayName": "Python 3.9.10 64-bit ('3.9.10': pyenv)"
+        }
+      },
+      "expiry": 1662818581537
+    },
+    "/Users/vlad-balance-pl/.pyenv/versions/3.9.11/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "b96b80b75bd1757525a7bf7d6732c50fd9aa5f0b43f9215b01c5d8adb078aaaba2a4a241459101e1b05209c75c0cd36bf34cffeff09041412b9cc666ebb2eced",
+        "info": {
+          "architecture": 3,
+          "path": "/Users/vlad-balance-pl/.pyenv/versions/3.9.11/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.9.11-final",
+            "major": 3,
+            "minor": 9,
+            "patch": 11,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.9.11-final"
+          },
+          "sysPrefix": "/Users/vlad-balance-pl/.pyenv/versions/3.9.11",
+          "fileHash": "b96b80b75bd1757525a7bf7d6732c50fd9aa5f0b43f9215b01c5d8adb078aaaba2a4a241459101e1b05209c75c0cd36bf34cffeff09041412b9cc666ebb2eced",
+          "envName": "3.9.11",
+          "type": "Pyenv",
+          "displayName": "Python 3.9.11 64-bit ('3.9.11': pyenv)"
+        }
+      },
+      "expiry": 1662818581538
+    },
+    "/opt/homebrew/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "c7f77c0a79f6251699be8520dfdb24a22b2b0cc54ee6d70642268bee5d328b27b80046c1f1f14abda93b345bec2798c280517a81dcbcc775af34ed8afd65839a",
+        "info": {
+          "architecture": 3,
+          "path": "/opt/homebrew/bin/python3",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.9.13-final",
+            "major": 3,
+            "minor": 9,
+            "patch": 13,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.9.13-final"
+          },
+          "sysPrefix": "/opt/homebrew/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+          "fileHash": "c7f77c0a79f6251699be8520dfdb24a22b2b0cc54ee6d70642268bee5d328b27b80046c1f1f14abda93b345bec2798c280517a81dcbcc775af34ed8afd65839a",
+          "type": "Unknown",
+          "displayName": "Python 3.9.13 64-bit"
+        }
+      },
+      "expiry": 1662818581539
+    },
+    "/usr/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "e52ad9f6bfe347f955261252f3eccfb7ded9e6efe63747f0b2ecbae663838f8627ac8dc927d9eb307ae361bb48c276c9cecb5fd986a63188b90b7ace06d09b59",
+        "info": {
+          "architecture": 3,
+          "path": "/usr/bin/python3",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.8.9-final",
+            "major": 3,
+            "minor": 8,
+            "patch": 9,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.8.9-final"
+          },
+          "sysPrefix": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8",
+          "fileHash": "e52ad9f6bfe347f955261252f3eccfb7ded9e6efe63747f0b2ecbae663838f8627ac8dc927d9eb307ae361bb48c276c9cecb5fd986a63188b90b7ace06d09b59",
+          "type": "Unknown",
+          "displayName": "Python 3.8.9 64-bit"
+        }
+      },
+      "expiry": 1662818581540
+    },
+    "/Users/vlad-balance-pl/development-personal/sshpong/venv/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/vlad-balance-pl/development-personal/sshpong/venv/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.10.2-final",
+          "major": 3,
+          "minor": 10,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.10.2-final"
+        },
+        "sysPrefix": "/Users/vlad-balance-pl/development-personal/sshpong/venv",
+        "fileHash": "cfca7b09d53df42110e474a88e600871e2e85daf662493fca78ab67a6256f2dcb131de6de397aa47f7625ff8517cceb1f573b7088b23eaab79b6197a807a77f0"
+      },
+      "expiry": 1662836944299
+    },
+    "/Users/vlad-balance-pl/development-personal/sshpong/venv/bin/python3.10.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/vlad-balance-pl/development-personal/sshpong/venv/bin/python3.10",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.10.2-final",
+          "major": 3,
+          "minor": 10,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.10.2-final"
+        },
+        "sysPrefix": "/Users/vlad-balance-pl/development-personal/sshpong/venv",
+        "fileHash": "cbeca3a6c86761e88df9865fc8e8c9d2373b9eb343db665df82fc7e9ee18c68793204caff2e2d265ec30bbcc2eefe133ea905a5cbc7d0a31cb8d40832f7c9463"
+      },
+      "expiry": 1662836944299
+    },
+    "/Users/vlad-balance-pl/development-personal/sshpong/venv/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/vlad-balance-pl/development-personal/sshpong/venv/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.10.2-final",
+          "major": 3,
+          "minor": 10,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.10.2-final"
+        },
+        "sysPrefix": "/Users/vlad-balance-pl/development-personal/sshpong/venv",
+        "fileHash": "018d7d6781eb68318c45ce21b7eccb45dcb181c0e41e2aed2f273c7706eb6e466bff8d9755cbe084afb80a0b936b20614d2654ff5585ca6aae4230057d2f97fc"
+      },
+      "expiry": 1662836944320
+    },
+    "InterpreterAutoSeletionRule-workspaceEnvs": {
+      "architecture": 3,
+      "path": "/Users/vlad-balance-pl/development-personal/sshpong/venv/bin/python3.10",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.10.2-final",
+        "major": 3,
+        "minor": 10,
+        "patch": 2,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.10.2-final"
+      },
+      "sysPrefix": "/Users/vlad-balance-pl/development-personal/sshpong/venv",
+      "fileHash": "cbeca3a6c86761e88df9865fc8e8c9d2373b9eb343db665df82fc7e9ee18c68793204caff2e2d265ec30bbcc2eefe133ea905a5cbc7d0a31cb8d40832f7c9463",
+      "envName": "venv",
+      "type": "Venv"
+    },
+    "InterpreterAutoSeletionRule-cachedInterpreters": {
+      "architecture": 3,
+      "path": "/Users/vlad-balance-pl/.pyenv/versions/3.10.2/bin/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.10.2-final",
+        "major": 3,
+        "minor": 10,
+        "patch": 2,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.10.2-final"
+      },
+      "sysPrefix": "/Users/vlad-balance-pl/.pyenv/versions/3.10.2",
+      "fileHash": "4b8d479f37a7b453b46631a4c864242ce3540312d7ee64abb6c4e3d67c2bb3ceea68a27e5ebcb47f5e2bd54c1ff69067a41c1827250e6bbed1a0aafccf734882",
+      "envName": "3.10.2",
+      "type": "Pyenv",
+      "displayName": "Python 3.10.2 64-bit ('3.10.2': pyenv)"
+    },
+    "/Users/vlad-balance-pl/development-personal/sshpong/venv/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.10.2 64-bit ('venv': venv)",
+        "hash": "cfca7b09d53df42110e474a88e600871e2e85daf662493fca78ab67a6256f2dcb131de6de397aa47f7625ff8517cceb1f573b7088b23eaab79b6197a807a77f0-3c7c3f35401ce5e8406a10a7db7a17d1"
+      },
+      "expiry": 1662836944330
+    },
+    "/Users/vlad-balance-pl/development-personal/sshpong/venv/bin/python3.10.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "cbeca3a6c86761e88df9865fc8e8c9d2373b9eb343db665df82fc7e9ee18c68793204caff2e2d265ec30bbcc2eefe133ea905a5cbc7d0a31cb8d40832f7c9463"
+      },
+      "expiry": 1662836944338
+    },
+    "/Users/vlad-balance-pl/development-personal/sshpong/venv/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "cfca7b09d53df42110e474a88e600871e2e85daf662493fca78ab67a6256f2dcb131de6de397aa47f7625ff8517cceb1f573b7088b23eaab79b6197a807a77f0",
+        "info": {
+          "architecture": 3,
+          "path": "/Users/vlad-balance-pl/development-personal/sshpong/venv/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.10.2-final",
+            "major": 3,
+            "minor": 10,
+            "patch": 2,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.10.2-final"
+          },
+          "sysPrefix": "/Users/vlad-balance-pl/development-personal/sshpong/venv",
+          "fileHash": "cfca7b09d53df42110e474a88e600871e2e85daf662493fca78ab67a6256f2dcb131de6de397aa47f7625ff8517cceb1f573b7088b23eaab79b6197a807a77f0",
+          "envName": "venv",
+          "type": "Venv",
+          "displayName": "Python 3.10.2 64-bit ('venv': venv)"
+        }
+      },
+      "expiry": 1662836944342
+    },
+    "/Users/vlad-balance-pl/development-personal/sshpong/venv/bin/python3.10.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.10.2 64-bit ('venv': venv)",
+        "hash": "cbeca3a6c86761e88df9865fc8e8c9d2373b9eb343db665df82fc7e9ee18c68793204caff2e2d265ec30bbcc2eefe133ea905a5cbc7d0a31cb8d40832f7c9463-34ad1508ea8c1a13c49b2e2c8becab60"
+      },
+      "expiry": 1662836944350
+    }
+  },
+  "coc-python|/Users/vlad-balance-pl/development-personal/arculus_task/pong/services": {
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService:d8fadf0db3973f93b75a6eb309218f87": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:d8fadf0db3973f93b75a6eb309218f87": []
+  },
+  "coc-python|/Users/vlad-balance-pl/development-personal/sshpong": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:1b2c1a6699c13071a85a6c8d8d29ba07": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:1b2c1a6699c13071a85a6c8d8d29ba07": [
+      {
+        "architecture": 3,
+        "path": "/Users/vlad-balance-pl/development-personal/sshpong/venv/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.10.2-final",
+          "major": 3,
+          "minor": 10,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.10.2-final"
+        },
+        "sysPrefix": "/Users/vlad-balance-pl/development-personal/sshpong/venv",
+        "fileHash": "cfca7b09d53df42110e474a88e600871e2e85daf662493fca78ab67a6256f2dcb131de6de397aa47f7625ff8517cceb1f573b7088b23eaab79b6197a807a77f0",
+        "envName": "venv",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/vlad-balance-pl/development-personal/sshpong/venv/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.10.2-final",
+          "major": 3,
+          "minor": 10,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.10.2-final"
+        },
+        "sysPrefix": "/Users/vlad-balance-pl/development-personal/sshpong/venv",
+        "fileHash": "018d7d6781eb68318c45ce21b7eccb45dcb181c0e41e2aed2f273c7706eb6e466bff8d9755cbe084afb80a0b936b20614d2654ff5585ca6aae4230057d2f97fc",
+        "envName": "venv",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/vlad-balance-pl/development-personal/sshpong/venv/bin/python3.10",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.10.2-final",
+          "major": 3,
+          "minor": 10,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.10.2-final"
+        },
+        "sysPrefix": "/Users/vlad-balance-pl/development-personal/sshpong/venv",
+        "fileHash": "cbeca3a6c86761e88df9865fc8e8c9d2373b9eb343db665df82fc7e9ee18c68793204caff2e2d265ec30bbcc2eefe133ea905a5cbc7d0a31cb8d40832f7c9463",
+        "envName": "venv",
+        "type": "Venv"
+      }
+    ],
+    "SelectedPythonPath": "/Users/vlad-balance-pl/development-personal/sshpong/venv/bin/python3.10",
+    "autoSelectedWorkspacePythonInterpreter-/Users/vlad-balance-pl/development-personal/sshpong": {
+      "architecture": 3,
+      "path": "/Users/vlad-balance-pl/development-personal/sshpong/venv/bin/python3.10",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.10.2-final",
+        "major": 3,
+        "minor": 10,
+        "patch": 2,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.10.2-final"
+      },
+      "sysPrefix": "/Users/vlad-balance-pl/development-personal/sshpong/venv",
+      "fileHash": "cbeca3a6c86761e88df9865fc8e8c9d2373b9eb343db665df82fc7e9ee18c68793204caff2e2d265ec30bbcc2eefe133ea905a5cbc7d0a31cb8d40832f7c9463",
+      "envName": "venv",
+      "type": "Venv"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [
+      {
+        "architecture": 3,
+        "path": "/Users/vlad-balance-pl/development-personal/sshpong/venv/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.10.2-final",
+          "major": 3,
+          "minor": 10,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.10.2-final"
+        },
+        "sysPrefix": "/Users/vlad-balance-pl/development-personal/sshpong/venv",
+        "fileHash": "cfca7b09d53df42110e474a88e600871e2e85daf662493fca78ab67a6256f2dcb131de6de397aa47f7625ff8517cceb1f573b7088b23eaab79b6197a807a77f0",
+        "envName": "venv",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/vlad-balance-pl/development-personal/sshpong/venv/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.10.2-final",
+          "major": 3,
+          "minor": 10,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.10.2-final"
+        },
+        "sysPrefix": "/Users/vlad-balance-pl/development-personal/sshpong/venv",
+        "fileHash": "018d7d6781eb68318c45ce21b7eccb45dcb181c0e41e2aed2f273c7706eb6e466bff8d9755cbe084afb80a0b936b20614d2654ff5585ca6aae4230057d2f97fc",
+        "envName": "venv",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/vlad-balance-pl/development-personal/sshpong/venv/bin/python3.10",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.10.2-final",
+          "major": 3,
+          "minor": 10,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.10.2-final"
+        },
+        "sysPrefix": "/Users/vlad-balance-pl/development-personal/sshpong/venv",
+        "fileHash": "cbeca3a6c86761e88df9865fc8e8c9d2373b9eb343db665df82fc7e9ee18c68793204caff2e2d265ec30bbcc2eefe133ea905a5cbc7d0a31cb8d40832f7c9463",
+        "envName": "venv",
+        "type": "Venv"
+      }
+    ]
+  },
+  "coc-python|/Users/vlad-balance-pl/development-personal/sshpong/pong/services": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:fc75e464d1d1bf471c5a1e7f28d24e84": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:fc75e464d1d1bf471c5a1e7f28d24e84": [],
+    "autoSelectedWorkspacePythonInterpreter-/Users/vlad-balance-pl/development-personal/sshpong/pong/services": {
+      "architecture": 3,
+      "path": "/Users/vlad-balance-pl/.pyenv/versions/3.10.2/bin/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.10.2-final",
+        "major": 3,
+        "minor": 10,
+        "patch": 2,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.10.2-final"
+      },
+      "sysPrefix": "/Users/vlad-balance-pl/.pyenv/versions/3.10.2",
+      "fileHash": "4b8d479f37a7b453b46631a4c864242ce3540312d7ee64abb6c4e3d67c2bb3ceea68a27e5ebcb47f5e2bd54c1ff69067a41c1827250e6bbed1a0aafccf734882",
+      "envName": "3.10.2",
+      "type": "Pyenv",
+      "displayName": "Python 3.10.2 64-bit ('3.10.2': pyenv)"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  }
+}

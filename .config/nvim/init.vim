@@ -39,6 +39,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.0' }
 
+Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build' }
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 Plug 'mhinz/vim-startify'
@@ -47,13 +48,12 @@ Plug 'Konfekt/FastFold'
 Plug 'tmhedberg/SimpylFold'
 
 Plug 'preservim/nerdcommenter'
-
 " In order for this to work correctly you need to have pynvim installed, this can be done via `pip3 install --user pynvim`
 Plug 'puremourning/vimspector'
 "SQL manager UI
 Plug 'tpope/vim-dadbod'
 Plug 'kristijanhusak/vim-dadbod-ui'
-
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'Pocco81/auto-save.nvim'
 " Initialize plugin system
 " - Automatically executes `filetype plugin indent on` and `syntax enable`.
@@ -80,8 +80,10 @@ autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTr
 autocmd BufEnter * if bufname('#') =~ 'NERD_tree_\d\+' && bufname('%') !~ 'NERD_tree_\d\+' && winnr('$') > 1 |
     \ let buf=bufnr() | buffer# | execute "normal! \<C-W>w" | execute 'buffer'.buf | endif
 " remap opening nerdtree to F6
-nmap <F6> :NERDTreeToggle<CR>  
-
+nmap <F6> :NERDTreeToggle<CR>
+" +-----------------+
+" Telescope settings
+" +-----------------+
 " Use the already installed dracula theme
 colorscheme dracula
 

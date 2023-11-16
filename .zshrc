@@ -15,7 +15,6 @@ export ZSH=$HOME/.oh-my-zsh
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-# https://github.com/romkatv/powerlevel10k#oh-my-zsh
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # Set list of themes to pick from when loading at random
@@ -79,12 +78,12 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-	git
-	# https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md
-	zsh-autosuggestions
-	dotenv
-	colored-man-pages
-	)
+		git
+		# https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md
+		zsh-autosuggestions
+		dotenv
+		colored-man-pages
+		)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -110,6 +109,9 @@ source $ZSH/oh-my-zsh.sh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 #
+# Example aliases
+# alias zshconfig="mate ~/.zshrc"
+# alias ohmyzsh="mate ~/.oh-my-zsh"
 # zsh, ohmyzsh
 export ZSHRC='~/.zshrc'
 alias zshrc="vi $ZSHRC"
@@ -139,6 +141,30 @@ alias nvimrc='vi $NVIMRC'
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
-
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+export AWS_DEFAULT_PROFILE="fosanis-vlad"
+# for fosanis-backend
+export LDFLAGS="-L/opt/homebrew/opt/libffi/lib"
+export PKG_CONFIG_PATH="/opt/homebrew/opt/libffi/lib/pkg-config"
+export CPPFLAGS="-I/opt/homebrew/opt/openssl/include"
+export DYLD_LIBRARY_PATH="/usr/local/mysql/lib:$DYLD_LIBRARY_PATH"
+
+# Mika stuff
+get_aws_otp() {
+		oathtool -b --totp $(aws configure get aws_mfa_secret_string)
+}
+## load managed profile
+set_aws_session_tokens() {
+    export AWS_DEFAULT_PROFILE="fosanis_managed"
+	unset AWS_SESSION_TOKEN
+    OTP=$(get_aws_otp)
+
+	TMP_CREDENTIALS=($(aws sts get-session-token --serial-number $(aws configure get aws_mfa_device_arn) --token-code $OTP \
+      | jq -r '.Credentials.AccessKeyId, .Credentials.SecretAccessKey, .Credentials.SessionToken'))
+
+    export AWS_ACCESS_KEY_ID="${TMP_CREDENTIALS[1]}"
+    export AWS_SECRET_ACCESS_KEY="${TMP_CREDENTIALS[2]}"
+    export AWS_SESSION_TOKEN="${TMP_CREDENTIALS[3]}"
+	echo $TMP_CREDENTIALS
+}
