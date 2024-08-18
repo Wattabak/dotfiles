@@ -6,7 +6,7 @@ set tabstop=4  " number of columns occupied by a tab "
 set autoindent " indent a new line the same amount as the line just typed"
 set noswapfile " self explanatory"
 set encoding=UTF-8
-
+set modifiable
 " Enable folding
 set foldmethod=indent
 set foldlevel=99
@@ -37,7 +37,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
 Plug 'nvim-lua/plenary.nvim'
-Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.0' }
+Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.8' }
 
 Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build' }
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -50,11 +50,10 @@ Plug 'tmhedberg/SimpylFold'
 Plug 'preservim/nerdcommenter'
 " In order for this to work correctly you need to have pynvim installed, this can be done via `pip3 install --user pynvim`
 Plug 'puremourning/vimspector'
-"SQL manager UI
-Plug 'tpope/vim-dadbod'
-Plug 'kristijanhusak/vim-dadbod-ui'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'Pocco81/auto-save.nvim'
+
+Plug 'akinsho/toggleterm.nvim', {'tag' : '*'}
 " Initialize plugin system
 " - Automatically executes `filetype plugin indent on` and `syntax enable`.
 call plug#end()
@@ -73,7 +72,7 @@ let g:airline#extensions#tabline#enabled = 1
 " NerdTree settings
 let NERDTreeShowHidden=1
 " Start NERDTree and put the cursor back in the other window.
-autocmd VimEnter * NERDTree | wincmd p
+" autocmd VimEnter * NERDTree | wincmd p
 " Exit Vim if NERDTree is the only window remaining in the only tab.
 autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
 " If another buffer tries to replace NERDTree, put it in the other window, and bring back NERDTree.
@@ -81,19 +80,22 @@ autocmd BufEnter * if bufname('#') =~ 'NERD_tree_\d\+' && bufname('%') !~ 'NERD_
     \ let buf=bufnr() | buffer# | execute "normal! \<C-W>w" | execute 'buffer'.buf | endif
 " remap opening nerdtree to F6
 nmap <F6> :NERDTreeToggle<CR>
-" +-----------------+
-" Telescope settings
-" +-----------------+
 " Use the already installed dracula theme
 colorscheme dracula
 
 let mapleader="\<Space>"
 
+" +-----------------+
+" Telescope settings
+" +-----------------+
+
 " Find files using Telescope command-line sugar.
 nnoremap <leader>ff <cmd>Telescope find_files<cr>
-nnoremap <leader>fg <cmd>Telescope live_grep<cr>
+nnoremap <leader>fg <cmd>Telescope live_grep<cr>>
+nnoremap <leader>ft <cmd>Telescope git_files<cr>>
 nnoremap <leader>fb <cmd>Telescope buffers<cr>
 nnoremap <leader>fh <cmd>Telescope help_tags<cr>
+
 
 " Coc settings
 " " Having longer updatetime (default is 4000 ms = 4 s) leads to noticeable
@@ -119,3 +121,5 @@ inoremap <expr><S-TAB> coc#pum#visible() ? coc#pum#prev(1) : "\<C-h>"
 " <C-g>u breaks current undo, please make your own choice.
 inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm()
                               \: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
+
+nnoremap <leader>ƒ :call CocAction('format')<cr>

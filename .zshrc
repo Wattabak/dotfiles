@@ -168,3 +168,6 @@ set_aws_session_tokens() {
     export AWS_SESSION_TOKEN="${TMP_CREDENTIALS[3]}"
 	echo $TMP_CREDENTIALS
 }
+export PGCLIENTENCODING="utf-8"
+
+export HOMEBREW_NO_AUTO_UPDATE=1

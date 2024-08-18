@@ -1,4 +1,12 @@
 {
-		"coc.preferences.formatOnSaveFiletypes": ["python"],
-		"pyright.testing.provider": "pytest"
+  "coc.preferences.formatOnSave": false,
+  "python.venvPath": "${env:HOME}/.pyenv/versions",
+  "pyright.testing.provider": "pytest",
+  "python.formatting.provider": "black",
+  "python.formatting.blackPath": "~/.pyenv/versions/coc/bin/black",
+  "[python]": {
+    "coc.preferences.formatOnSave": true
+  },
+  "languageserver": {},
+  "lua.enable": true,
 }

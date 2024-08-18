@@ -1,0 +1,1301 @@
+
+# 2024-04-11 14:33:31.861562
++\dt
+
+# 2024-04-11 14:33:52.826338
++exit
+
+# 2024-04-11 16:58:05.557639
++\dt;
+
+# 2024-04-11 16:58:52.065581
++select * from related_documents limit 1;
+
+# 2024-04-11 17:00:04.515411
++select * from related_documents where from_document_id=8738;
+
+# 2024-04-18 17:07:19.521947
++use fosanis_staging
+
+# 2024-04-18 17:07:54.227473
++select * from accounts_user group by id;
+
+# 2024-04-18 17:08:17.609629
++select * from accounts_user left inner join accounts_user on id;
+
+# 2024-04-18 17:08:22.968121
++select * from accounts_user left join accounts_user on id;
+
+# 2024-04-18 17:09:05.168072
++select id, count(*) from accounts_user group by id having count(*) > 1;
+
+# 2024-04-18 17:09:47.519300
++select id, date_joined, count(*) from accounts_user group by id having count(*) > 1;
+
+# 2024-04-18 17:09:58.396963
++select id, date_joined, count(*) from accounts_user group by id, date_joined having count(*) > 1;
+
+# 2024-04-18 17:10:53.898543
++select id, date_joined, count(*) from accounts_user group by id having count(*) > 1;
+
+# 2024-04-18 17:10:59.967281
++select id, count(*) from accounts_user group by id having count(*) > 1;
+
+# 2024-04-18 17:11:19.684519
++select id, date_joined, count(*) from accounts_user group by id having count(*) > 1;
+
+# 2024-04-18 17:11:22.302261
++select id, date_joined, count(*) from accounts_user group by id, date_joined having count(*) > 1;
+
+# 2024-04-18 17:12:27.175691
++select count(*) from accounts_user;
+
+# 2024-04-18 17:13:10.631196
++show database;
+
+# 2024-04-18 17:13:18.254896
++\dD
+
+# 2024-04-18 17:13:21.567219
++\d
+
+# 2024-04-18 17:43:09.614247
++select count(*) from accounts_user;
+
+# 2024-04-18 18:04:33.341316
++\dt
+
+# 2024-04-18 18:05:35.914518
++select * from onboarding_questionnaire;
+
+# 2024-04-18 18:14:39.231483
++\dt
+
+# 2024-04-18 18:14:47.258408
++select count(*) from accounts_user;
+
+# 2024-04-18 18:35:01.224862
++\dt
+
+# 2024-04-19 17:01:00.833306
++DROP TABLE public.content_library_userarticlereadstatushistory; DROP TABLE public.document_topic_aspect; DROP TABLE public.document_cancer_types; DROP TABLE public.document_diet_preferences; DROP TABLE public.file_vault_pdffile; DROP TABLE public.document_therapy_types; DROP TABLE public.content_mediareference; DROP TABLE public.content_library_article; DROP TABLE public.app_access_userappprescription; DROP TABLE public.distress_management_useractivities; DROP TABLE public.checkup_useranswer; DROP TABLE public.importance; DROP TABLE public.file_vault_videofile; DROP TABLE public.file_vault_imagefile; DROP TABLE public.intro_doc_category; 
++
+
+# 2024-04-19 17:01:33.525484
++\dt
+
+# 2024-04-19 17:03:57.850528
++drop table content_videocontent;
+
+# 2024-04-19 17:04:01.365044
++\dt
+
+# 2024-04-19 17:04:08.341146
++drop table distress_management_activities;
+
+# 2024-04-19 17:04:11.052914
++\dt
+
+# 2024-04-19 17:04:23.331610
++drop table document; drop table document_ds_all_data;
+
+# 2024-04-19 17:04:26.029323
++\dt
+
+# 2024-04-19 17:04:42.595835
++drop table navigator_audiocontent;
+
+# 2024-04-19 17:04:49.871234
++\dt
+
+# 2024-04-19 17:05:03.722354
++drop table navigator_exercisevideo;
+
+# 2024-04-19 17:05:33.695299
++\dt
+
+# 2024-04-19 17:07:54.637235
++ALTER DEFAULT PRIVILEGES
++  FOR user dms
++  IN SCHEMA public
++  REVOKE ALL ON TABLES
++  TO matomo_importer;
+
+# 2024-04-19 17:08:12.041901
++ALTER DEFAULT PRIVILEGES
++  FOR user dms
++  IN SCHEMA public
++  REVOKE ALL ON TABLES
++  FROM matomo_importer;
+
+# 2024-04-19 17:08:49.525715
++\dt
+
+# 2024-04-19 17:11:31.448194
++ALTER DEFAULT PRIVILEGES
++  FOR user dms
++  IN SCHEMA public
++  REVOKE ALL ON ALL TABLES IN public
++  FROM matomo_importer;
+
+# 2024-04-19 17:11:52.946098
++ALTER DEFAULT PRIVILEGES
++  FOR user dms
++  IN SCHEMA public
++  REVOKE ALL ON ALL in public
++  FROM matomo_importer;
+
+# 2024-04-19 17:12:22.195251
++ALTER DEFAULT PRIVILEGES
++  FOR user dms
++  IN SCHEMA public
++  REVOKE ALL ON ALL TABLES in public
++  FROM matomo_importer;
+
+# 2024-04-19 17:13:08.370483
++ALTER DEFAULT PRIVILEGES
++  FOR user dms
++  IN SCHEMA public
++  REVOKE ALL ON ALL TABLES in SCHEMA public
++  FROM matomo_importer;
+
+# 2024-04-19 17:13:20.052371
++ALTER DEFAULT PRIVILEGES
++  FOR user dms
++  IN SCHEMA public
++  REVOKE ALL ON TABLES in SCHEMA public
++  FROM matomo_importer;
+
+# 2024-04-19 17:13:37.298560
++ALTER DEFAULT PRIVILEGES
++  FOR user dms
++  IN SCHEMA public
++  REVOKE ALL ON TABLES ON SCHEMA public
++  FROM matomo_importer;
+
+# 2024-04-19 17:14:08.681157
++ALTER DEFAULT PRIVILEGES
++  FOR user dms
++  IN SCHEMA public
++  REVOKE ALL ON TABLES 
++  FROM matomo_importer;
+
+# 2024-04-19 17:14:19.361651
++\dt
+
+# 2024-04-19 17:14:38.616284
++ALTER DEFAULT PRIVILEGES
++  FOR user matomo_importer
++  IN SCHEMA public
++  REVOKE ALL ON TABLES;
+
+# 2024-04-19 17:14:47.395487
++ALTER DEFAULT PRIVILEGES
++  FOR user matomo_importer
++  IN SCHEMA public
++  REVOKE ALL ON ALL TABLES;
+
+# 2024-04-19 17:15:01.610768
++
++ALTER DEFAULT PRIVILEGES
++  FOR user dms
++  IN SCHEMA public
++  GRANT SELECT ON TABLES
++  TO matomo_importer;
+
+# 2024-04-19 17:15:33.332860
++
++ALTER DEFAULT PRIVILEGES
++  FOR user dms
++  IN SCHEMA public
++  GRANT ALL ON ALL TABLES
++  TO matomo_importer;
+
+# 2024-04-19 17:15:37.710378
++
++ALTER DEFAULT PRIVILEGES
++  FOR user dms
++  IN SCHEMA public
++  GRANT ALL ON  TABLES
++  TO matomo_importer;
+
+# 2024-04-19 17:15:55.439347
++GRANT ALL PRIVILEGES ON SCHEMA public to dms;
+
+# 2024-04-19 17:16:07.451345
++GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public to dms;
+
+# 2024-04-19 17:16:29.205701
++REVOKE ALL PRIVILEGES ON ALL TABLES IN SCHEMA public to matomo_importer;
+
+# 2024-04-19 17:16:37.366586
++REVOKE ALL PRIVILEGES ON ALL TABLES IN SCHEMA public from matomo_importer;
+
+# 2024-04-19 17:16:40.399928
++\dt
+
+# 2024-04-19 17:24:08.403115
++revoke create table from matomo_importer;
+
+# 2024-04-19 17:24:23.772278
++revoke create table for public from matomo_importer;
+
+# 2024-04-19 17:25:16.626074
++\dt
+
+# 2024-04-19 17:25:34.437953
++ALTER DEFAULT PRIVILEGES FOR USER "matomo_importer" IN SCHEMA public
++    REVOKE ALL ON TABLES FROM "matomo_importer";
+
+# 2024-04-19 17:25:47.854940
++drop table navigator_audiocontent;
+
+# 2024-04-19 17:26:07.077509
++show columns from navigator_audiocontent;
+
+# 2024-04-19 17:26:14.274533
++select * from navigator_audiocontent;
+
+# 2024-04-19 17:27:23.111299
++\dt
+
+# 2024-04-19 17:31:05.767402
++ALTER DEFAULT PRIVILEGES
++  FOR user matomo_importer
++  IN SCHEMA public
++  GRANT ALL ON TABLES
++  TO matomo_importer;
+
+# 2024-04-19 17:31:13.264764
++\dt
+
+# 2024-04-19 17:37:15.354782
++select count(*) from accounts_user;
+
+# 2024-04-19 17:44:44.625938
++\dt
+
+# 2024-04-19 17:49:34.124562
++select count(*) from accounts_user;
+
+# 2024-04-22 16:07:29.900879
++use fosanis
+
+# 2024-04-22 16:07:38.754640
++select count(*) from accounts_user;
+
+# 2024-04-22 17:11:43.054621
++\dt;
+
+# 2024-04-23 11:06:29.955193
++select count(*) from accounts_user;
+
+# 2024-04-23 11:08:23.545836
++\dt
+
+# 2024-04-23 11:13:22.320978
++alter table content_library_article owner to dms;
+
+# 2024-04-23 11:13:26.900874
++\dt
+
+# 2024-04-23 11:13:42.258361
++alter table content_mediareference owner to dms;
+
+# 2024-04-23 11:13:48.096382
++\dt
+
+# 2024-04-23 11:13:58.962879
++alter table navigator_audiocontent owner to dms;
+
+# 2024-04-23 11:14:03.134427
++\dt
+
+# 2024-04-23 11:14:18.999974
++alter table navigator_exercisevideo owner to dms;
+
+# 2024-04-23 11:14:21.711153
++\dt
+
+# 2024-04-23 11:14:38.896206
++alter table content_videocontent owner to dms;
+
+# 2024-04-23 11:14:45.181301
++\dt
+
+# 2024-04-23 11:14:58.819228
++alter table file_vault_videofile owner to dms;
+
+# 2024-04-23 11:15:02.142833
++\dt
+
+# 2024-04-23 11:15:10.684185
++alter table document owner to dms
+
+# 2024-04-23 11:15:16.986736
++alter table document_ds_all_data owner to dms
+
+# 2024-04-23 11:15:21.242564
++\dt
+
+# 2024-04-23 11:15:29.480800
++alter table distress_management_activities owner to dms;
+
+# 2024-04-23 11:15:31.805475
++\dt
+
+# 2024-04-23 11:18:30.810888
++TRUNCATE TABLE public.document_diet_preferences; TRUNCATE TABLE public.document_cancer_types; TRUNCATE TABLE public.accounts_consent; TRUNCATE TABLE public.document_topic_aspect; TRUNCATE TABLE public.checkup_useranswer; TRUNCATE TABLE public.content_library_userarticlereadstatushistory; TRUNCATE TABLE public.accounts_appuser; TRUNCATE TABLE public.accounts_user; TRUNCATE TABLE public.checkup_userweight; TRUNCATE TABLE public.document_therapy_types
+
+# 2024-04-23 11:21:01.559469
++select count(*) from document_diet_preferences;
+
+# 2024-04-23 11:22:36.170403
++select count(*) from accounts_user;
+
+# 2024-04-24 13:37:18.263918
++show columns from document_ds_all_data;
+
+# 2024-04-24 13:37:38.340069
++show columns from 'document_ds_all_data';
+
+# 2024-04-24 13:37:43.455039
++show columns from "document_ds_all_data";
+
+# 2024-04-24 13:37:48.954496
++\d
+
+# 2024-04-24 13:38:02.970414
++select * from document_ds_all_data limit 1;
+
+# 2024-04-24 13:39:52.577757
++drop table document_ds_all_data;
+
+# 2024-04-24 13:40:47.420671
++select * from document_ds_all_data limit 1;
+
+# 2024-04-24 13:41:07.184690
++drop table document_ds_all_data;
+
+# 2024-04-24 13:41:19.716059
++select * from document_ds_all_data limit 1;
+
+# 2024-04-24 13:45:02.317432
++select count(*) from document_ds_all_data;
+
+# 2024-04-24 13:50:36.793401
++truncate table document;
+
+# 2024-04-24 13:53:21.017742
++select count(*) from document_ds_all_data;
+
+# 2024-04-24 13:53:27.678927
++select count(*) from document;
+
+# 2024-04-24 13:53:57.572856
++select count(*) from document_ds_all_data;
+
+# 2024-04-24 13:54:00.251520
++select count(*) from document;
+
+# 2024-04-24 13:54:12.896806
++select count(*) from document_ds_all_data;
+
+# 2024-04-24 13:54:44.669346
++select count(*) from document;
+
+# 2024-04-24 13:55:19.515627
++truncate table document;
+
+# 2024-04-24 13:55:33.062329
++truncate table document_ds_all_data;
+
+# 2024-04-24 14:54:50.169127
++select count(*) from document;
+
+# 2024-04-24 14:54:58.045004
++select count(*) from document_ds_all_data;
+
+# 2024-04-24 15:51:49.516345
++select count(*) from document;
+
+# 2024-04-24 16:01:08.863361
++select * from stl_load_errors;
+
+# 2024-04-24 16:01:49.351648
++drop table document;
+
+# 2024-04-24 16:02:10.624673
++truncate table document_ds_all_data;
+
+# 2024-04-24 16:02:31.959564
++select * from stl_load_errors;
+
+# 2024-04-24 16:03:00.496031
++select count(*) from document;
+
+# 2024-04-24 16:03:10.326478
++select count(*) from document_ds_all_data;
+
+# 2024-04-24 16:08:00.484776
++select count(*) from document;
+
+# 2024-04-24 16:09:26.226033
++select count(*) from document_ds_all_data;
+
+# 2024-04-24 16:58:06.600502
++show columns from "document_ds_all_data";
+
+# 2024-04-24 16:58:16.665487
++select * from document_ds_all_data limit 1;
+
+# 2024-04-24 16:58:57.213878
++select * from document limit 1;
+
+# 2024-04-24 16:59:54.999447
++select locale_id from document limit 1;
+
+# 2024-04-24 17:00:07.005884
++select locale_id from document_ds_all_data limit 1;
+
+# 2024-04-24 17:00:10.315945
++select locale_id from document_ds_all_data;
+
+# 2024-04-26 10:20:41.213473
++use fosanis_staging
+
+# 2024-04-26 10:20:56.198335
++select count(*) from document_ds_all_data;
+
+# 2024-04-26 10:21:01.813894
++\dt
+
+# 2024-04-26 10:21:21.248131
++select count(*) from document;
+
+# 2024-04-26 10:50:01.029707
++select count(*) from document_ds_all_data;
+
+# 2024-04-26 10:50:03.496265
++select count(*) from document;
+
+# 2024-04-26 10:50:24.774110
++select locale_id from document;
+
+# 2024-04-26 10:50:30.175199
++select distinct locale_id from document;
+
+# 2024-04-26 10:50:41.491528
++select * from wagtailcore_locale
+
+# 2024-04-26 10:53:21.455784
++select distinct locale_id from document;
+
+# 2024-04-26 10:54:10.306980
++select count(*) from document;
+
+# 2024-04-26 10:54:51.297681
++\dt
+
+# 2024-04-26 11:00:51.318038
++select * from stl_load_errors;
+
+# 2024-04-26 11:01:11.284614
++select * from stl_load_errors order by starttime desc;
+
+# 2024-04-26 11:03:00.288862
++\dt
+
+# 2024-04-26 11:03:57.689576
++show columns from document
+
+# 2024-04-26 11:04:04.112289
++show columns from 'document'
+
+# 2024-04-26 11:04:08.723706
++show columns from fosanis_staging.document
+
+# 2024-04-26 11:04:23.312811
++show create table document;
+
+# 2024-04-26 11:04:33.085179
++show columns from table fosanis_staging.document
+
+# 2024-04-26 11:04:45.190218
++show columns from table document
+
+# 2024-04-26 11:04:46.920466
++show columns from table document;
+
+# 2024-04-26 11:05:04.330312
++show columns from table fosanis_staging.public.document;
+
+# 2024-04-26 11:06:28.110376
++select * from stl_load_errors order by starttime desc;
+
+# 2024-04-26 11:06:49.862780
++show columns from table fosanis_staging.public.document;
+
+# 2024-04-26 11:12:09.469729
++select * from stl_load_errors order by starttime desc;
+
+# 2024-04-26 11:12:42.668328
++show columns from table fosanis_staging.public.document_ds_all_data;
+
+# 2024-04-26 11:12:52.246660
++\dt
+
+# 2024-04-26 11:13:15.986640
++select count(*) from document;
+
+# 2024-04-26 11:13:29.159089
++select locale_id from document;
+
+# 2024-04-26 11:13:35.297571
++select * from document;
+
+# 2024-04-26 11:14:08.032636
++select count(*) from document;
+
+# 2024-04-26 11:14:53.337693
++select count(*) from document_ds_all_data;
+
+# 2024-04-26 11:15:13.891923
++select count(*) from wagtailcore_locale;
+
+# 2024-04-26 11:15:22.364645
++select count(*) from navigator_exercise;
+
+# 2024-04-26 11:15:28.694113
++select count(*) from navigator_journey;
+
+# 2024-04-26 11:15:30.388226
++\dt
+
+# 2024-04-26 11:15:59.805347
++select * from stl_load_errors order by starttime desc;
+
+# 2024-04-26 11:16:14.245785
++select * from stl_load_errors order by starttime asc;
+
+# 2024-04-26 11:16:26.556377
++select * from stl_load_errors order by starttime desc;
+
+# 2024-04-26 11:16:41.421285
++use fosanis
+
+# 2024-04-26 11:16:44.043025
++select * from stl_load_errors order by starttime desc;
+
+# 2024-04-26 11:17:02.738955
++show columns from table fosanis.public.document;
+
+# 2024-04-26 11:17:16.441881
++use fosanis_staging
+
+# 2024-04-26 11:17:23.738515
++select count(*) from document
+
+# 2024-04-26 11:17:49.426924
++select count(*) from wagtailcore_locale;
+
+# 2024-04-26 11:17:57.339563
++select * from wagtailcore_locale;
+
+# 2024-04-26 11:23:36.946100
++select count(*) from wagtailcore_locale;
+
+# 2024-04-26 11:23:39.263366
++select count(*) from document
+
+# 2024-04-26 11:28:23.637681
++select count(*) from wagtailcore_locale;
+
+# 2024-04-26 11:44:09.961164
++select count(*) from document
+
+# 2024-04-26 11:50:35.709064
++select count(*) from wagtailcore_locale;
+
+# 2024-04-26 11:50:38.224554
++select count(*) from document
+
+# 2024-04-26 11:50:48.336190
++select count(*) from document_ds_all_data;
+
+# 2024-04-26 11:50:51.320856
++select count(*) from document
+
+# 2024-04-26 11:59:30.334819
++select count(*) from document_ds_all_data;
+
+# 2024-04-26 11:59:32.222424
++select count(*) from document
+
+# 2024-04-26 11:59:37.322646
++select count(*) from wagtailcore_locale;
+
+# 2024-04-26 11:59:55.959139
++select * from document where locale_id=23;
+
+# 2024-04-26 12:00:17.804235
++select distinct locale_id from document;
+
+# 2024-04-26 12:00:27.333323
++select distinct locale_id from document_ds_all_data;
+
+# 2024-04-26 12:00:46.104909
++select * from document_ds_all_data where locale_id=23;
+
+# 2024-04-26 12:00:57.070954
++select id, locale_id from document_ds_all_data where locale_id=23;
+
+# 2024-04-26 12:05:17.895949
++select count(*) from document
+
+# 2024-04-26 12:23:58.663327
++select * from document where id=8797;
+
+# 2024-04-26 12:24:30.722240
++select * from document_ds_all_data where id=8797;
+
+# 2024-04-26 12:26:11.911568
++select * from document where id=8797;
+
+# 2024-04-26 12:32:18.337121
++select count(*) from document
+
+# 2024-04-26 12:36:33.577256
++select * from document where id=8890;
+
+# 2024-04-30 09:03:31.783530
++select count(*) from document
+
+# 2024-04-30 09:03:37.233519
++select count(*) from document_ds_all_data
+
+# 2024-04-30 09:03:43.966278
++select count(*) from accounts_user
+
+# 2024-04-30 09:03:49.664693
++use fosanis
+
+# 2024-04-30 09:03:51.909656
++select count(*) from accounts_user
+
+# 2024-04-30 09:03:57.191822
++select count(*) from document_ds_all_data
+
+# 2024-04-30 09:18:56.265385
++'dt
+
+# 2024-04-30 09:18:58.418002
++\dt
+
+# 2024-04-30 11:12:31.479218
++select * from stl_load_errors order by starttime desc;
+
+# 2024-04-30 11:18:20.991938
++\dt
+
+# 2024-04-30 11:19:06.947792
++GRANT ALL PRIVILEGES ON SCHEMA public to dms;
++GRANT ALL PRIVILEGES ON SCHEMA public to matomo_importer;
++GRANT USAGE ON SCHEMA public to dagster;
++
+
+# 2024-04-30 11:19:11.578854
++GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public to dms;
++GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public to matomo_importer;
++GRANT SELECT ON ALL TABLES IN SCHEMA public to dagster;
++GRANT SELECT ON ALL TABLES IN SCHEMA public to metabase;
+
+# 2024-04-30 11:19:50.645663
++GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public to dms;
+
+# 2024-04-30 11:21:14.846968
++exit
+
+# 2024-04-30 11:21:46.449842
++use fosanis
+
+# 2024-04-30 11:21:49.766701
++GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public to dms;
+
+# 2024-04-30 11:23:48.083148
++ALTER DEFAULT PRIVILEGES
++  FOR user matomo_importer
++  IN SCHEMA public
++  GRANT ALL ON TABLES
++  TO dms;
++
++ALTER DEFAULT PRIVILEGES
++  FOR user matomo_importer
++  IN SCHEMA public
++  GRANT SELECT ON TABLES
++  TO matomo_importer;
++
++ALTER DEFAULT PRIVILEGES
++  FOR user matomo_importer
++  IN SCHEMA public
++  GRANT SELECT ON TABLES
++  TO dagster;
++
++ALTER DEFAULT PRIVILEGES
++  FOR user matomo_importer
++  IN SCHEMA public
++  GRANT SELECT ON TABLES
++  TO metabase;
++
++ALTER DEFAULT PRIVILEGES
++  FOR user matomo_importer
++  IN SCHEMA public
++  GRANT ALL ON TABLES
++  TO jonas;
++
++ALTER DEFAULT PRIVILEGES
++  FOR user matomo_importer
++  IN SCHEMA public
++  GRANT ALL ON TABLES
++  TO lee;
+
+# 2024-04-30 11:23:56.086033
++ALTER DEFAULT PRIVILEGES
++  FOR user dms
++  IN SCHEMA public
++  GRANT ALL ON TABLES
++  TO dms;
++
++ALTER DEFAULT PRIVILEGES
++  FOR user dms
++  IN SCHEMA public
++  GRANT SELECT ON TABLES
++  TO dagster;
++
++ALTER DEFAULT PRIVILEGES
++  FOR user dms
++  IN SCHEMA public
++  GRANT SELECT ON TABLES
++  TO matomo_importer;
++
++ALTER DEFAULT PRIVILEGES
++  FOR user dms
++  IN SCHEMA public
++  GRANT SELECT ON TABLES
++  TO metabase;
++
++ALTER DEFAULT PRIVILEGES
++  FOR user dms
++  IN SCHEMA public
++  GRANT ALL ON TABLES
++  TO jonas;
++
++ALTER DEFAULT PRIVILEGES
++  FOR user dms
++  IN SCHEMA public
++  GRANT ALL ON TABLES
++  TO lee;
+
+# 2024-04-30 11:24:05.570850
++ALTER DEFAULT PRIVILEGES
++  FOR user root
++  IN SCHEMA public
++  GRANT ALL ON TABLES
++  TO dms;
++
++ALTER DEFAULT PRIVILEGES
++  FOR user root
++  IN SCHEMA public
++  GRANT ALL ON TABLES
++  TO matomo_importer;
++
++ALTER DEFAULT PRIVILEGES
++  FOR user root
++  IN SCHEMA public
++  GRANT SELECT ON TABLES
++  TO dagster;
++
++ALTER DEFAULT PRIVILEGES
++  FOR user root
++  IN SCHEMA public
++  GRANT SELECT ON TABLES
++  TO metabase;
++
++ALTER DEFAULT PRIVILEGES
++  FOR user root
++  IN SCHEMA public
++  GRANT ALL ON TABLES
++  TO jonas;
++
++ALTER DEFAULT PRIVILEGES
++  FOR user root
++  IN SCHEMA public
++  GRANT ALL ON TABLES
++  TO lee;
+
+# 2024-04-30 11:24:13.662741
++GRANT ALL PRIVILEGES ON SCHEMA public to dms;
++GRANT ALL PRIVILEGES ON SCHEMA public to matomo_importer;
++GRANT USAGE ON SCHEMA public to dagster;
+
+# 2024-04-30 11:24:19.230340
++GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public to dms;
++GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public to matomo_importer;
+
+# 2024-04-30 11:24:46.198190
++\dt
+
+# 2024-04-30 11:26:21.541925
++GRANT USAGE ON SCHEMA public to dms;
+
+# 2024-04-30 11:26:23.175093
++\dt
+
+# 2024-04-30 11:26:25.872484
++GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public to dms;
++GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public to matomo_importer;
+
+# 2024-04-30 12:27:53.931499
++\dt
+
+# 2024-04-30 12:28:05.374434
++exit
+
+# 2024-04-30 12:29:20.041205
++use fosanis
+
+# 2024-04-30 12:29:22.997787
++'dt
+
+# 2024-04-30 12:29:25.132350
++\dt
+
+# 2024-04-30 12:31:29.985077
++GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public to dms;
+
+# 2024-04-30 12:32:52.669803
++GRANT SELECT ON ALL TABLES IN SCHEMA public to dagster;
++GRANT SELECT ON ALL TABLES IN SCHEMA public to metabase;
+
+# 2024-04-30 12:33:04.770120
++\dt
+
+# 2024-04-30 12:35:04.761201
++drop table like '%navigator%';
+
+# 2024-04-30 12:35:12.214000
++\dt
+
+# 2024-04-30 12:35:40.249057
++GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public to jonas;
+
+# 2024-04-30 12:46:34.778212
++GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public to dms;
+
+# 2024-04-30 12:46:48.856404
++\dt
+
+# 2024-04-30 12:46:58.370281
++drop table abtesting_abtest;
+
+# 2024-04-30 12:47:50.169123
++select * from STV_SESSIONS
+
+# 2024-04-30 12:48:15.012770
++SELECT pg_terminate_backend(process) FROM STV_SESSIONS where user_name='dms' and process != pg_backend_pid();
+
+# 2024-04-30 12:48:42.813801
++select table_id, last_update, lock_owner, lock_owner_pid from stv_locks;
+
+# 2024-04-30 12:48:51.590566
++SELECT pg_terminate_backend(process) FROM STV_SESSIONS where user_name='dms' and process != pg_backend_pid();
+
+# 2024-04-30 12:48:53.549469
++select * from STV_SESSIONS
+
+# 2024-04-30 12:52:30.124285
++select pg_terminate_backend(1073742507);
+
+# 2024-04-30 12:52:37.007795
++select * from STV_SESSIONS
+
+# 2024-04-30 12:53:10.815224
++SELECT pg_terminate_backend(process) FROM STV_SESSIONS where user_name='dms' and process != pg_backend_pid();
+
+# 2024-04-30 12:53:17.517722
++SELECT pg_terminate_backend(process) FROM STV_SESSIONS where user_name='dms';
+
+# 2024-04-30 12:53:28.426542
++select process from stv_sessions;
+
+# 2024-04-30 12:53:37.143195
++select process, user_name from stv_sessions;
+
+# 2024-04-30 12:53:58.471730
++select * from STV_SESSIONS
+
+# 2024-04-30 12:54:38.328066
++select count(*) from stv_sessions where user_name='dagster';
+
+# 2024-04-30 12:56:57.519158
++GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public to dms;
+
+# 2024-04-30 12:57:07.904949
++select count(*) from stv_sessions where user_name='dagster';
+
+# 2024-04-30 12:57:16.838306
++select * from STV_SESSIONS
+
+# 2024-04-30 12:57:34.938748
++select * from stv_locks;
+
+# 2024-04-30 13:00:49.783144
++select * from stv_integration_table_state
+
+# 2024-04-30 13:01:09.311024
++select * from svv_table_info
+
+# 2024-04-30 13:01:27.116541
++select * from svv_table_info where table_id=377090545;
+
+# 2024-04-30 13:01:32.633978
++select * from STV_SESSIONS
+
+# 2024-04-30 13:02:10.583537
++select * from stv_locks
+
+# 2024-04-30 13:03:28.803422
++select * from svv_table_info where table_id=4597976;
+
+# 2024-04-30 13:03:53.123469
++select * from stv_locks
+
+# 2024-04-30 13:04:17.502265
++select * from svv_user_info where user_id=377090545;
+
+# 2024-04-30 13:04:28.672048
++select * from svv_user_info;
+
+# 2024-04-30 13:04:49.518045
++select * from svv_locks
+
+# 2024-04-30 13:04:53.660030
++select * from stv_locks
+
+# 2024-04-30 13:05:59.993649
++select * from svv_transactions
+
+# 2024-04-30 14:03:10.640346
++select * from STV_SESSIONS
+
+# 2024-04-30 14:03:22.472170
++drop table abtesting_abtest;
+
+# 2024-04-30 14:03:28.499867
++\dt
+
+# 2024-04-30 14:58:58.945004
++select count(*) from accounts_user
+
+# 2024-05-04 12:30:45.507674
++TRUNCATE TABLE public.login_history; TRUNCATE TABLE public.navigator_userintro; 
+
+# 2024-05-04 12:30:54.008421
++commit
+
+# 2024-05-04 12:57:49.299441
++select count(*) from login_history
+
+# 2024-05-07 11:48:17.743062
++select * from document_ds_all_data where id=8797;
+
+# 2024-05-07 11:48:33.525516
++select * from document_ds_all_data where id=8897;
+
+# 2024-05-07 11:48:42.572810
++select * from document where id=8897;
+
+# 2024-05-07 13:39:22.629240
++select * from document where id=3515;
+
+# 2024-05-07 13:47:52.213256
++select * from document where id=8897;
+
+# 2024-05-07 13:47:58.398951
++select * from document_ds_all_data where id=8897;
+
+# 2024-05-07 13:48:01.957475
++select * from document_ds_all_data where id=3515;
+
+# 2024-05-08 20:40:17.343231
++use fosanis_staging
+
+# 2024-05-08 20:41:59.761314
++truncate table onboarding_useranswer
+
+# 2024-05-08 20:44:40.278504
++select count(*) from onboarding_useranswer
+
+# 2024-05-16 11:28:07.085916
++use fosanis_prod
+
+# 2024-05-16 11:28:24.708501
++use fosanis
+
+# 2024-05-16 11:28:39.309722
++select id, streaming_audio_url from navigator_exercise
+
+# 2024-05-21 12:32:41.827599
++show binlog
+
+# 2024-05-21 12:34:45.592552
++show slave status
+
+# 2024-05-21 12:34:50.364059
++show slave status;
+
+# 2024-05-21 13:56:26.927263
++show columns from document
+
+# 2024-05-21 13:56:32.294891
++show columns from document;
+
+# 2024-05-21 13:56:38.216217
++show columns from content_category
+
+# 2024-05-21 14:29:19.918070
++use fosanis
+
+# 2024-05-21 14:29:21.752227
++\dt
+
+# 2024-05-21 14:29:30.235331
++show columns from abtesting_abtest_test_groups
+
+# 2024-05-21 14:29:34.932829
++show columns from 'abtesting_abtest_test_groups';
+
+# 2024-05-21 14:29:46.462399
++show columns from 'public.abtesting_abtest_test_groups';
+
+# 2024-05-21 14:29:53.083085
++show columns from public.abtesting_abtest_test_groups;
+
+# 2024-05-21 14:29:58.015397
++show columns from abtesting_abtest_test_groups;
+
+# 2024-05-21 14:30:11.245022
++show column from account_emailaddress
+
+# 2024-05-21 14:30:25.770498
++select id, streaming_audio_url from navigator_exercise
+
+# 2024-05-21 15:29:07.571120
++SHOW BINARY LOGS;
+
+# 2024-05-21 15:29:15.626793
++exit
+
+# 2024-05-21 15:29:27.561184
++use fosanis
+
+# 2024-05-21 15:29:30.261531
++SHOW BINARY LOGS;
+
+# 2024-05-21 16:51:38.204876
++show columns from thermometer_problem
+
+# 2024-05-21 16:51:43.347374
++show column from thermometer_problem
+
+# 2024-05-21 16:52:00.891958
++show columns from table thermometer_problem
+
+# 2024-05-21 16:52:07.155541
++show columns from table public.thermometer_problem
+
+# 2024-05-21 16:52:10.674865
++show columns from table public.thermometer_problem;
+
+# 2024-05-21 16:52:20.227329
++show columns from table fosanis.public.thermometer_problem;
+
+# 2024-05-22 09:30:27.250123
++show columns from table cancer_types
+
+# 2024-05-22 09:30:40.078996
++show columns from table fosanis.public.cancer_types
+
+# 2024-05-22 11:22:29.232635
++use fosanis_staging
+
+# 2024-05-22 11:22:54.463230
++select id, name_st from thermometer_problem
+
+# 2024-05-22 11:23:14.590059
++select id, name_st from fosanis.public.thermometer_problem
+
+# 2024-05-22 11:23:18.097471
++use fosanis
+
+# 2024-05-22 11:23:20.995233
++select id, name_st from thermometer_problem
+
+# 2024-05-22 11:23:36.822332
++use fosanis_staging
+
+# 2024-05-22 11:23:38.848852
++select id, name_st from thermometer_problem
+
+# 2024-05-22 11:23:53.840253
++select id, name_st, is_default from thermometer_problem
+
+# 2024-05-22 11:24:11.640297
++select id, name_st from thermometer_problem where is_default >0
+
+# 2024-05-22 14:02:58.769178
++select name_st, name_st_de from thermometer_problem
+
+# 2024-05-22 14:03:02.816923
++select name_st from thermometer_problem
+
+# 2024-05-22 14:12:10.414771
++select name_dt from thermometer_problem
+
+# 2024-05-23 09:14:57.109712
++use fosanis
+
+# 2024-05-23 09:14:58.514724
++select name_dt from thermometer_problem
+
+# 2024-05-23 10:04:10.640912
++show variables like '%mariadb_slave_capability%'
+
+# 2024-05-23 10:06:00.325809
++TRUNCATE TABLE public.intro_doc_category; TRUNCATE TABLE public.onboarding_onboardingscreen_checkbox; TRUNCATE TABLE public.thermometer_symptomcollectionsnapshot; TRUNCATE TABLE public.accounts_organizationpartnership; TRUNCATE TABLE public.navigator_userintro; TRUNCATE TABLE public.navigator_userexercise; TRUNCATE TABLE public.accounts_failedloginattempt; TRUNCATE TABLE public.abtesting_targetfunctionoverride; TRUNCATE TABLE public.companion_action_buttons; TRUNCATE TABLE public.document_diet_preferences; TRUNCATE TABLE public.meinmika_userinfoboxnotification; TRUNCATE TABLE public.media_type; TRUNCATE TABLE public.onboarding_onboardingflow; TRUNCATE TABLE public.content_documentlocale; TRUNCATE TABLE public.accounts_usersurveysent; TRUNCATE TABLE public.push_notifications_usernotification; TRUNCATE TABLE public.content_library_label; TRUNCATE TABLE public.navigator_exercisevideo; TRUNCATE TABLE public.thermometer_codingvalue_problems; TRUNCATE TABLE public.onboarding_onboardingscreen_navbar_button; TRUNCATE TABLE public.accounts_useremailsent; TRUNCATE TABLE public.navigator_userstage_navigationoptions; TRUNCATE TABLE public.user_goal; TRUNCATE TABLE public.thermometer_symptomcollectionsnapshot_symptoms; TRUNCATE TABLE public.medical_management_therapytype; TRUNCATE TABLE public.wagtailcore_grouppagepermission; TRUNCATE TABLE public.thermometer_userexplainerseen; TRUNCATE TABLE public.quality_score; TRUNCATE TABLE public.thermometer_problem; TRUNCATE TABLE public.organization_user; TRUNCATE TABLE public.thermometer_symptomcollection; TRUNCATE TABLE public.onboarding_onboardingscreen_banner; TRUNCATE TABLE public.abtesting_enrollment; TRUNCATE TABLE public.app_access_userappprescription_expiry_notifications; TRUNCATE TABLE public.user_document; TRUNCATE TABLE public.onboarding_onboardingscreeninput; TRUNCATE TABLE public.navigator_userexercisetask; TRUNCATE TABLE public.abtesting_abtestusercondition; TRUNCATE TABLE public.onboarding_screencheckboxes; TRUNCATE TABLE public.app_access_useraccessexpirynotification; TRUNCATE TABLE public.document_cancer_types; TRUNCATE TABLE public.search_term_history; TRUNCATE TABLE public.content_library_userinvitation; TRUNCATE TABLE public.accounts_appuser_cancer_types; TRUNCATE TABLE public.navigator_userstageassessment; TRUNCATE TABLE public.navigator_exercise; TRUNCATE TABLE public.push_notifications_notification; TRUNCATE TABLE public.abtesting_targetvariable; TRUNCATE TABLE public.abtesting_abtest; TRUNCATE TABLE public.account_emailconfirmation; TRUNCATE TABLE public.checkup_useranswer; TRUNCATE TABLE public.document_therapy_types; TRUNCATE TABLE public.app_access_userappprescription; TRUNCATE TABLE public.cancer_types; TRUNCATE TABLE public.navigator_intro; TRUNCATE TABLE public.wagtailcore_page; TRUNCATE TABLE public.content_category; TRUNCATE TABLE public.onboarding_onboardingscreen_text; TRUNCATE TABLE public.navigator_navigationgoal; TRUNCATE TABLE public.wagtailcore_locale; TRUNCATE TABLE public.content_documentbucket; TRUNCATE TABLE public.content_contributor; TRUNCATE TABLE public.abtesting_abtest_overrides; TRUNCATE TABLE public.checkup_bucket; TRUNCATE TABLE public.content_library_articlebucket; TRUNCATE TABLE public.navigator_stage; TRUNCATE TABLE public.onboarding_screenmedia; TRUNCATE TABLE public.checkup_question; TRUNCATE TABLE public.onboarding_onboardingscreen_media; TRUNCATE TABLE public.companion_action; TRUNCATE TABLE public.medication_medication; TRUNCATE TABLE public.checkup_color; TRUNCATE TABLE public.content_library_article; TRUNCATE TABLE public.accounts_appnotification; TRUNCATE TABLE public.meinmika_infoboxnotification; TRUNCATE TABLE public.accounts_user_groups; TRUNCATE TABLE public.content_library_article_sources; TRUNCATE TABLE public.thermometer_problem_symptoms; TRUNCATE TABLE public.user_document_read_status_history; TRUNCATE TABLE public.content_library_userarticlereadstatushistory; TRUNCATE TABLE public.companion_screen; TRUNCATE TABLE public.navigator_exerciseutility; TRUNCATE TABLE public.related_documents; TRUNCATE TABLE public.navigator_userpause; TRUNCATE TABLE public.accounts_appuser_receptor_statuses; TRUNCATE TABLE public.onboarding_answer; TRUNCATE TABLE public.onboarding_onboardingtext; TRUNCATE TABLE public.accounts_sentemail; TRUNCATE TABLE public.distress_management_useractivitycompleted; TRUNCATE TABLE public.onboarding_onboardingscreen_input; TRUNCATE TABLE public.thermometer_codingvalue; TRUNCATE TABLE public.companion_screen_input; TRUNCATE TABLE public.content_topicaspect_problems; TRUNCATE TABLE public.navigator_exercisevideochapter; TRUNCATE TABLE public.onboarding_onboardingaction; TRUNCATE TABLE public.dashboard_physicianprofile; TRUNCATE TABLE public.companion_button; TRUNCATE TABLE public.thermometer_usertrackingrecord; TRUNCATE TABLE public.recommender_priority_hint; TRUNCATE TABLE public.content_library_invitation; TRUNCATE TABLE public.thermometer_symptomcollection_symptoms; TRUNCATE TABLE public.medical_management_receptorstatus; TRUNCATE TABLE public.checkup_weightchange; TRUNCATE TABLE public.importance; TRUNCATE TABLE public.wagtailcore_groupcollectionpermission; TRUNCATE TABLE public.navigator_exercise_utilities; TRUNCATE TABLE public.onboarding_useranswer; TRUNCATE TABLE public.accounts_userverifycode; TRUNCATE TABLE public.wagtailcore_modellogentry; TRUNCATE TABLE public.accounts_appuserpreset; TRUNCATE TABLE public.content_library_userarticle; TRUNCATE TABLE public.companion_companionnotifications; TRUNCATE TABLE public.distress_management_activities; TRUNCATE TABLE public.navigator_userexercisetaskrecurring; TRUNCATE TABLE public.abtesting_abtestrun; TRUNCATE TABLE public.content_library_article_labels; TRUNCATE TABLE public.file_vault_pdffile; TRUNCATE TABLE public.navigator_exercisetask; TRUNCATE TABLE public.accounts_appuserpreset_cancer_types; TRUNCATE TABLE public.accounts_userappnotification; TRUNCATE TABLE public.document_topic_aspect; TRUNCATE TABLE public.abtesting_usercondition; TRUNCATE TABLE public.distress_management_userintention; TRUNCATE TABLE public.accounts_appuser_therapy_types; TRUNCATE TABLE public.wearables_thryveconnection; TRUNCATE TABLE public.navigator_audiocontent; TRUNCATE TABLE public.login_history; TRUNCATE TABLE public.navigator_navigationoption; TRUNCATE TABLE public.accounts_pushnotification; TRUNCATE TABLE public.accounts_appnotification_buttons; TRUNCATE TABLE public.checkup_userweight; TRUNCATE TABLE public.dashboard_physicianprofile_gallery; TRUNCATE TABLE public.file_vault_videofile; TRUNCATE TABLE public.content_mediareference; TRUNCATE TABLE public.file_vault_imagefile; TRUNCATE TABLE public.push_notifications_userdevice; TRUNCATE TABLE public.onboarding_navbarbutton; TRUNCATE TABLE public.navigator_userstage; TRUNCATE TABLE public.companion_screeninput; TRUNCATE TABLE public.diet_preferences; TRUNCATE TABLE public.auth_group; TRUNCATE TABLE public.sync_env_syncevent; TRUNCATE TABLE public.content_library_category; TRUNCATE TABLE public.accounts_appnotificationbutton; TRUNCATE TABLE public.outreach_lead; TRUNCATE TABLE public.accounts_user_user_permissions; TRUNCATE TABLE public.accounts_partnershippreset_cancer_types; TRUNCATE TABLE public.thermometer_diaryentry; TRUNCATE TABLE public.abtesting_testgroup_overrides; TRUNCATE TABLE public.cancer_phases; TRUNCATE TABLE public.accounts_partnershippreset; TRUNCATE TABLE public.onboarding_onboardingscreen; TRUNCATE TABLE public.onboarding_question; TRUNCATE TABLE public.navigator_userjourney; TRUNCATE TABLE public.organizations; TRUNCATE TABLE public.abtesting_testgroup; TRUNCATE TABLE public.auth_permission; TRUNCATE TABLE public.distress_management_useractivities; TRUNCATE TABLE public.abtesting_abtest_groups; TRUNCATE TABLE public.onboarding_onboardingbutton; TRUNCATE TABLE public.onboarding_onboardingflow_screen; TRUNCATE TABLE public.content_topicaspect; TRUNCATE TABLE public.accounts_appuserpreset_therapy_types; TRUNCATE TABLE public.abtesting_abtesttestgrouplink; TRUNCATE TABLE public.thermometer_usertrackingrecord_problems; TRUNCATE TABLE public.navigator_journey_cancer_types; TRUNCATE TABLE public.auth_group_permissions; TRUNCATE TABLE public.navigator_journey_partnerships; TRUNCATE TABLE public.accounts_user; TRUNCATE TABLE public.navigator_exercisetaskrecurring; TRUNCATE TABLE public.onboarding_usersession; TRUNCATE TABLE public.onboarding_onboardingtext_action; TRUNCATE TABLE public.thermometer_problem_questions; TRUNCATE TABLE public.user_defined_rank; TRUNCATE TABLE public.accounts_consent; TRUNCATE TABLE public.onboarding_onboardingbanner; TRUNCATE TABLE public.content_library_articlesource; TRUNCATE TABLE public.content_videocontent; TRUNCATE TABLE public.navigator_exercisetaskrecurring_exercise_videos; TRUNCATE TABLE public.accounts_consenttext; TRUNCATE TABLE public.checkup_questiontype; TRUNCATE TABLE public.misc_appversion; TRUNCATE TABLE public.onboarding_useranswer_answer_obj; TRUNCATE TABLE public.abtesting_functionoverride; TRUNCATE TABLE public.content_library_invitation_articles; TRUNCATE TABLE public.wearables_biomarker; TRUNCATE TABLE public.checkup_answer; TRUNCATE TABLE public.accounts_appuser; TRUNCATE TABLE public.account_emailaddress; TRUNCATE TABLE public.checkup_questionmax;
+
+# 2024-05-23 20:37:19.161353
++select count(*) from accounts_failedloginattempt
+
+# 2024-05-24 00:48:45.772225
++select count(*) from accounts_user
+
+# 2024-05-24 18:34:50.080602
++TRUNCATE TABLE public.intro_doc_category; TRUNCATE TABLE public.onboarding_onboardingscreen_checkbox; TRUNCATE TABLE public.thermometer_symptomcollectionsnapshot; TRUNCATE TABLE public.accounts_organizationpartnership; TRUNCATE TABLE public.navigator_userintro; TRUNCATE TABLE public.navigator_userexercise; TRUNCATE TABLE public.accounts_failedloginattempt; TRUNCATE TABLE public.abtesting_targetfunctionoverride; TRUNCATE TABLE public.companion_action_buttons; TRUNCATE TABLE public.document_diet_preferences; TRUNCATE TABLE public.meinmika_userinfoboxnotification; TRUNCATE TABLE public.media_type; TRUNCATE TABLE public.onboarding_onboardingflow; TRUNCATE TABLE public.content_documentlocale; TRUNCATE TABLE public.accounts_usersurveysent; TRUNCATE TABLE public.push_notifications_usernotification; TRUNCATE TABLE public.content_library_label; TRUNCATE TABLE public.navigator_exercisevideo; TRUNCATE TABLE public.thermometer_codingvalue_problems; TRUNCATE TABLE public.onboarding_onboardingscreen_navbar_button; TRUNCATE TABLE public.accounts_useremailsent; TRUNCATE TABLE public.navigator_userstage_navigationoptions; TRUNCATE TABLE public.user_goal; TRUNCATE TABLE public.thermometer_symptomcollectionsnapshot_symptoms; TRUNCATE TABLE public.medical_management_therapytype; TRUNCATE TABLE public.wagtailcore_grouppagepermission; TRUNCATE TABLE public.thermometer_userexplainerseen; TRUNCATE TABLE public.quality_score; TRUNCATE TABLE public.thermometer_problem; TRUNCATE TABLE public.organization_user; TRUNCATE TABLE public.thermometer_symptomcollection; TRUNCATE TABLE public.onboarding_onboardingscreen_banner; TRUNCATE TABLE public.abtesting_enrollment; TRUNCATE TABLE public.app_access_userappprescription_expiry_notifications; TRUNCATE TABLE public.user_document; TRUNCATE TABLE public.onboarding_onboardingscreeninput; TRUNCATE TABLE public.navigator_userexercisetask; TRUNCATE TABLE public.abtesting_abtestusercondition; TRUNCATE TABLE public.onboarding_screencheckboxes; TRUNCATE TABLE public.app_access_useraccessexpirynotification; TRUNCATE TABLE public.document_cancer_types; TRUNCATE TABLE public.search_term_history; TRUNCATE TABLE public.content_library_userinvitation; TRUNCATE TABLE public.accounts_appuser_cancer_types; TRUNCATE TABLE public.navigator_userstageassessment; TRUNCATE TABLE public.navigator_exercise; TRUNCATE TABLE public.push_notifications_notification; TRUNCATE TABLE public.abtesting_targetvariable; TRUNCATE TABLE public.abtesting_abtest; TRUNCATE TABLE public.account_emailconfirmation; TRUNCATE TABLE public.checkup_useranswer; TRUNCATE TABLE public.document_therapy_types; TRUNCATE TABLE public.app_access_userappprescription; TRUNCATE TABLE public.cancer_types; TRUNCATE TABLE public.navigator_intro; TRUNCATE TABLE public.wagtailcore_page; TRUNCATE TABLE public.content_category; TRUNCATE TABLE public.onboarding_onboardingscreen_text; TRUNCATE TABLE public.navigator_navigationgoal; TRUNCATE TABLE public.wagtailcore_locale; TRUNCATE TABLE public.content_documentbucket; TRUNCATE TABLE public.content_contributor; TRUNCATE TABLE public.abtesting_abtest_overrides; TRUNCATE TABLE public.checkup_bucket; TRUNCATE TABLE public.content_library_articlebucket; TRUNCATE TABLE public.navigator_stage; TRUNCATE TABLE public.onboarding_screenmedia; TRUNCATE TABLE public.checkup_question; TRUNCATE TABLE public.onboarding_onboardingscreen_media; TRUNCATE TABLE public.companion_action; TRUNCATE TABLE public.medication_medication; TRUNCATE TABLE public.checkup_color; TRUNCATE TABLE public.content_library_article; TRUNCATE TABLE public.accounts_appnotification; TRUNCATE TABLE public.meinmika_infoboxnotification; TRUNCATE TABLE public.accounts_user_groups; TRUNCATE TABLE public.content_library_article_sources; TRUNCATE TABLE public.thermometer_problem_symptoms; TRUNCATE TABLE public.user_document_read_status_history; TRUNCATE TABLE public.content_library_userarticlereadstatushistory; TRUNCATE TABLE public.companion_screen; TRUNCATE TABLE public.navigator_exerciseutility; TRUNCATE TABLE public.related_documents; TRUNCATE TABLE public.navigator_userpause; TRUNCATE TABLE public.accounts_appuser_receptor_statuses; TRUNCATE TABLE public.onboarding_answer; TRUNCATE TABLE public.onboarding_onboardingtext; TRUNCATE TABLE public.accounts_sentemail; TRUNCATE TABLE public.distress_management_useractivitycompleted; TRUNCATE TABLE public.onboarding_onboardingscreen_input; TRUNCATE TABLE public.thermometer_codingvalue; TRUNCATE TABLE public.companion_screen_input; TRUNCATE TABLE public.content_topicaspect_problems; TRUNCATE TABLE public.navigator_exercisevideochapter; TRUNCATE TABLE public.onboarding_onboardingaction; TRUNCATE TABLE public.dashboard_physicianprofile; TRUNCATE TABLE public.companion_button; TRUNCATE TABLE public.thermometer_usertrackingrecord; TRUNCATE TABLE public.recommender_priority_hint; TRUNCATE TABLE public.content_library_invitation; TRUNCATE TABLE public.thermometer_symptomcollection_symptoms; TRUNCATE TABLE public.medical_management_receptorstatus; TRUNCATE TABLE public.checkup_weightchange; TRUNCATE TABLE public.importance; TRUNCATE TABLE public.wagtailcore_groupcollectionpermission; TRUNCATE TABLE public.navigator_exercise_utilities; TRUNCATE TABLE public.onboarding_useranswer; TRUNCATE TABLE public.accounts_userverifycode; TRUNCATE TABLE public.wagtailcore_modellogentry; TRUNCATE TABLE public.accounts_appuserpreset; TRUNCATE TABLE public.content_library_userarticle; TRUNCATE TABLE public.companion_companionnotifications; TRUNCATE TABLE public.distress_management_activities; TRUNCATE TABLE public.navigator_userexercisetaskrecurring; TRUNCATE TABLE public.abtesting_abtestrun; TRUNCATE TABLE public.content_library_article_labels; TRUNCATE TABLE public.file_vault_pdffile; TRUNCATE TABLE public.navigator_exercisetask; TRUNCATE TABLE public.accounts_appuserpreset_cancer_types; TRUNCATE TABLE public.accounts_userappnotification; TRUNCATE TABLE public.document_topic_aspect; TRUNCATE TABLE public.abtesting_usercondition; TRUNCATE TABLE public.distress_management_userintention; TRUNCATE TABLE public.accounts_appuser_therapy_types; TRUNCATE TABLE public.wearables_thryveconnection; TRUNCATE TABLE public.navigator_audiocontent; TRUNCATE TABLE public.login_history; TRUNCATE TABLE public.navigator_navigationoption; TRUNCATE TABLE public.accounts_pushnotification; TRUNCATE TABLE public.accounts_appnotification_buttons; TRUNCATE TABLE public.checkup_userweight; TRUNCATE TABLE public.dashboard_physicianprofile_gallery; TRUNCATE TABLE public.file_vault_videofile; TRUNCATE TABLE public.content_mediareference; TRUNCATE TABLE public.file_vault_imagefile; TRUNCATE TABLE public.push_notifications_userdevice; TRUNCATE TABLE public.onboarding_navbarbutton; TRUNCATE TABLE public.navigator_userstage; TRUNCATE TABLE public.companion_screeninput; TRUNCATE TABLE public.diet_preferences; TRUNCATE TABLE public.auth_group; TRUNCATE TABLE public.sync_env_syncevent; TRUNCATE TABLE public.content_library_category; TRUNCATE TABLE public.accounts_appnotificationbutton; TRUNCATE TABLE public.outreach_lead; TRUNCATE TABLE public.accounts_user_user_permissions; TRUNCATE TABLE public.accounts_partnershippreset_cancer_types; TRUNCATE TABLE public.thermometer_diaryentry; TRUNCATE TABLE public.abtesting_testgroup_overrides; TRUNCATE TABLE public.cancer_phases; TRUNCATE TABLE public.accounts_partnershippreset; TRUNCATE TABLE public.onboarding_onboardingscreen; TRUNCATE TABLE public.onboarding_question; TRUNCATE TABLE public.navigator_userjourney; TRUNCATE TABLE public.organizations; TRUNCATE TABLE public.abtesting_testgroup; TRUNCATE TABLE public.auth_permission; TRUNCATE TABLE public.distress_management_useractivities; TRUNCATE TABLE public.abtesting_abtest_groups; TRUNCATE TABLE public.onboarding_onboardingbutton; TRUNCATE TABLE public.onboarding_onboardingflow_screen; TRUNCATE TABLE public.content_topicaspect; TRUNCATE TABLE public.accounts_appuserpreset_therapy_types; TRUNCATE TABLE public.abtesting_abtesttestgrouplink; TRUNCATE TABLE public.thermometer_usertrackingrecord_problems; TRUNCATE TABLE public.navigator_journey_cancer_types; TRUNCATE TABLE public.auth_group_permissions; TRUNCATE TABLE public.navigator_journey_partnerships; TRUNCATE TABLE public.accounts_user; TRUNCATE TABLE public.navigator_exercisetaskrecurring; TRUNCATE TABLE public.onboarding_usersession; TRUNCATE TABLE public.onboarding_onboardingtext_action; TRUNCATE TABLE public.thermometer_problem_questions; TRUNCATE TABLE public.user_defined_rank; TRUNCATE TABLE public.accounts_consent; TRUNCATE TABLE public.onboarding_onboardingbanner; TRUNCATE TABLE public.content_library_articlesource; TRUNCATE TABLE public.content_videocontent; TRUNCATE TABLE public.navigator_exercisetaskrecurring_exercise_videos; TRUNCATE TABLE public.accounts_consenttext; TRUNCATE TABLE public.checkup_questiontype; TRUNCATE TABLE public.misc_appversion; TRUNCATE TABLE public.onboarding_useranswer_answer_obj; TRUNCATE TABLE public.abtesting_functionoverride; TRUNCATE TABLE public.content_library_invitation_articles; TRUNCATE TABLE public.wearables_biomarker; TRUNCATE TABLE public.checkup_answer; TRUNCATE TABLE public.accounts_appuser; TRUNCATE TABLE public.account_emailaddress; TRUNCATE TABLE public.checkup_questionmax;
+
+# 2024-05-29 10:55:42.495788
++select count(*) from accounts_user
+
+# 2024-05-30 10:47:58.682800
++TRUNCATE TABLE public.medical_management_therapytype; 
+
+# 2024-07-02 11:15:01.642813
++TRUNCATE TABLE public.medical_management_receptorstatus; TRUNCATE TABLE public.thermometer_symptomcollectionsnapshot; TRUNCATE TABLE public.recommender_priority_hint; TRUNCATE TABLE public.onboarding_useranswer; TRUNCATE TABLE public.onboarding_onboardingscreen_banner; TRUNCATE TABLE public.distress_management_useractivitycompleted; TRUNCATE TABLE public.medical_management_therapytype; TRUNCATE TABLE public.push_notifications_userdevice; TRUNCATE TABLE public.onboarding_onboardingtext; TRUNCATE TABLE public.navigator_userstage_navigationoptions; TRUNCATE TABLE public.onboarding_answer; TRUNCATE TABLE public.media_type; TRUNCATE TABLE public.onboarding_usersession; TRUNCATE TABLE public.navigator_userstageassessment; TRUNCATE TABLE public.onboarding_onboardingscreen_input; TRUNCATE TABLE public.onboarding_onboardingbutton; TRUNCATE TABLE public.login_history; TRUNCATE TABLE public.navigator_userintro; TRUNCATE TABLE public.onboarding_onboardingscreen; TRUNCATE TABLE public.navigator_userexercisetask; TRUNCATE TABLE public.onboarding_onboardingscreen_navbar_button; TRUNCATE TABLE public.onboarding_onboardingscreen_text; TRUNCATE TABLE public.onboarding_onboardingtext_action; TRUNCATE TABLE public.onboarding_onboardingscreen_checkbox; TRUNCATE TABLE public.intro_doc_category; TRUNCATE TABLE public.navigator_userstage; TRUNCATE TABLE public.onboarding_useranswer_answer_obj; TRUNCATE TABLE public.push_notifications_userdevice_users; TRUNCATE TABLE public.file_vault_pdffile; TRUNCATE TABLE public.onboarding_question; TRUNCATE TABLE public.organizations; TRUNCATE TABLE public.onboarding_onboardingaction; TRUNCATE TABLE public.onboarding_onboardingscreen_media; TRUNCATE TABLE public.navigator_userjourney; TRUNCATE TABLE public.file_vault_imagefile; TRUNCATE TABLE public.content_library_userarticle; TRUNCATE TABLE public.django_celery_beat_crontabschedule; TRUNCATE TABLE public.onboarding_onboardingscreeninput; TRUNCATE TABLE public.content_library_userarticlereadstatushistory; TRUNCATE TABLE public.misc_customperiodictask; TRUNCATE TABLE public.onboarding_screencheckboxes; TRUNCATE TABLE public.thermometer_usertrackingrecord_problems; TRUNCATE TABLE public.quality_score; TRUNCATE TABLE public.push_notifications_usernotificationschedule; TRUNCATE TABLE public.thermometer_userexplainerseen; TRUNCATE TABLE public.treatments_appointment; TRUNCATE TABLE public.onboarding_onboardingflow_screen; TRUNCATE TABLE public.navigator_userexercise; TRUNCATE TABLE public.meinmika_userinfoboxnotification; TRUNCATE TABLE public.django_celery_beat_periodictask; TRUNCATE TABLE public.push_notifications_notificationtargetscreen; TRUNCATE TABLE public.push_notifications_usernotification; TRUNCATE TABLE public.organization_user; TRUNCATE TABLE public.onboarding_screenmedia; TRUNCATE TABLE public.file_vault_videofile; TRUNCATE TABLE public.distress_management_activities; TRUNCATE TABLE public.push_notifications_notification; TRUNCATE TABLE public.medication_medication; TRUNCATE TABLE public.navigator_exercise; TRUNCATE TABLE public.distress_management_userintention; TRUNCATE TABLE public.dashboard_physicianprofile; TRUNCATE TABLE public.outreach_lead; TRUNCATE TABLE public.navigator_userpause; TRUNCATE TABLE public.meinmika_infoboxnotification; TRUNCATE TABLE public.app_access_userappprescription; TRUNCATE TABLE public.misc_rruleschedule; TRUNCATE TABLE public.onboarding_onboardingflow; 
+
+# 2024-07-02 12:07:43.443396
++TRUNCATE TABLE public.file_vault_imagefile; TRUNCATE TABLE public.onboarding_screencheckboxes; TRUNCATE TABLE public.onboarding_useranswer_answer_obj; TRUNCATE TABLE public.push_notifications_notificationtargetscreen; TRUNCATE TABLE public.distress_management_userintention; TRUNCATE TABLE public.content_library_userarticle; TRUNCATE TABLE public.intro_doc_category; TRUNCATE TABLE public.navigator_userstage; TRUNCATE TABLE public.onboarding_onboardingtext_action; TRUNCATE TABLE public.onboarding_answer; TRUNCATE TABLE public.onboarding_onboardingflow_screen; TRUNCATE TABLE public.navigator_userexercisetask; TRUNCATE TABLE public.meinmika_infoboxnotification; TRUNCATE TABLE public.onboarding_onboardingbutton; TRUNCATE TABLE public.onboarding_onboardingscreen_media; TRUNCATE TABLE public.push_notifications_usernotification; TRUNCATE TABLE public.onboarding_screenmedia; TRUNCATE TABLE public.meinmika_userinfoboxnotification; TRUNCATE TABLE public.file_vault_pdffile; TRUNCATE TABLE public.distress_management_useractivitycompleted; TRUNCATE TABLE public.onboarding_useranswer; TRUNCATE TABLE public.onboarding_onboardingscreen; TRUNCATE TABLE public.onboarding_onboardingscreen_input; TRUNCATE TABLE public.thermometer_symptomcollectionsnapshot; TRUNCATE TABLE public.content_library_userarticlereadstatushistory; TRUNCATE TABLE public.onboarding_onboardingbanner; TRUNCATE TABLE public.navigator_exercise; TRUNCATE TABLE public.distress_management_activities; TRUNCATE TABLE public.onboarding_onboardingscreen_checkbox; TRUNCATE TABLE public.file_vault_videofile; TRUNCATE TABLE public.onboarding_onboardingaction; TRUNCATE TABLE public.onboarding_nextscreenbuttons; TRUNCATE TABLE public.navigator_userintro; TRUNCATE TABLE public.onboarding_usersession; TRUNCATE TABLE public.medical_management_receptorstatus; TRUNCATE TABLE public.outreach_lead; TRUNCATE TABLE public.onboarding_onboardingflow; TRUNCATE TABLE public.medical_management_therapytype; TRUNCATE TABLE public.onboarding_onboardingscreen_banner; TRUNCATE TABLE public.onboarding_onboardingscreeninput; TRUNCATE TABLE public.navigator_userexercise; TRUNCATE TABLE public.push_notifications_userdevice; TRUNCATE TABLE public.push_notifications_notification; TRUNCATE TABLE public.navigator_userstage_navigationoptions; TRUNCATE TABLE public.navigator_userstageassessment; TRUNCATE TABLE public.onboarding_navbarbutton; TRUNCATE TABLE public.login_history; TRUNCATE TABLE public.dashboard_physicianprofile; TRUNCATE TABLE public.thermometer_usertrackingrecord_problems; TRUNCATE TABLE public.misc_customperiodictask; TRUNCATE TABLE public.medication_medication; TRUNCATE TABLE public.navigator_userpause; TRUNCATE TABLE public.onboarding_question; TRUNCATE TABLE public.quality_score; TRUNCATE TABLE public.thermometer_userexplainerseen; TRUNCATE TABLE public.push_notifications_usernotificationschedule; TRUNCATE TABLE public.navigator_userjourney; TRUNCATE TABLE public.media_type; TRUNCATE TABLE public.treatments_appointment; TRUNCATE TABLE public.organization_user; TRUNCATE TABLE public.onboarding_onboardingtext; TRUNCATE TABLE public.recommender_priority_hint; TRUNCATE TABLE public.push_notifications_userdevice_users; TRUNCATE TABLE public.django_celery_beat_periodictask; TRUNCATE TABLE public.onboarding_onboardingscreen_text; TRUNCATE TABLE public.onboarding_onboardingscreen_navbar_button; TRUNCATE TABLE public.organizations; TRUNCATE TABLE public.misc_rruleschedule; TRUNCATE TABLE public.django_celery_beat_crontabschedule; TRUNCATE TABLE public.app_access_userappprescription; 
+
+# 2024-07-02 12:08:03.839732
++use fosanis_staging
+
+# 2024-07-02 12:08:07.051336
++TRUNCATE TABLE public.file_vault_imagefile; TRUNCATE TABLE public.onboarding_screencheckboxes; TRUNCATE TABLE public.onboarding_useranswer_answer_obj; TRUNCATE TABLE public.push_notifications_notificationtargetscreen; TRUNCATE TABLE public.distress_management_userintention; TRUNCATE TABLE public.content_library_userarticle; TRUNCATE TABLE public.intro_doc_category; TRUNCATE TABLE public.navigator_userstage; TRUNCATE TABLE public.onboarding_onboardingtext_action; TRUNCATE TABLE public.onboarding_answer; TRUNCATE TABLE public.onboarding_onboardingflow_screen; TRUNCATE TABLE public.navigator_userexercisetask; TRUNCATE TABLE public.meinmika_infoboxnotification; TRUNCATE TABLE public.onboarding_onboardingbutton; TRUNCATE TABLE public.onboarding_onboardingscreen_media; TRUNCATE TABLE public.push_notifications_usernotification; TRUNCATE TABLE public.onboarding_screenmedia; TRUNCATE TABLE public.meinmika_userinfoboxnotification; TRUNCATE TABLE public.file_vault_pdffile; TRUNCATE TABLE public.distress_management_useractivitycompleted; TRUNCATE TABLE public.onboarding_useranswer; TRUNCATE TABLE public.onboarding_onboardingscreen; TRUNCATE TABLE public.onboarding_onboardingscreen_input; TRUNCATE TABLE public.thermometer_symptomcollectionsnapshot; TRUNCATE TABLE public.content_library_userarticlereadstatushistory; TRUNCATE TABLE public.onboarding_onboardingbanner; TRUNCATE TABLE public.navigator_exercise; TRUNCATE TABLE public.distress_management_activities; TRUNCATE TABLE public.onboarding_onboardingscreen_checkbox; TRUNCATE TABLE public.file_vault_videofile; TRUNCATE TABLE public.onboarding_onboardingaction; TRUNCATE TABLE public.onboarding_nextscreenbuttons; TRUNCATE TABLE public.navigator_userintro; TRUNCATE TABLE public.onboarding_usersession; TRUNCATE TABLE public.medical_management_receptorstatus; TRUNCATE TABLE public.outreach_lead; TRUNCATE TABLE public.onboarding_onboardingflow; TRUNCATE TABLE public.medical_management_therapytype; TRUNCATE TABLE public.onboarding_onboardingscreen_banner; TRUNCATE TABLE public.onboarding_onboardingscreeninput; TRUNCATE TABLE public.navigator_userexercise; TRUNCATE TABLE public.push_notifications_userdevice; TRUNCATE TABLE public.push_notifications_notification; TRUNCATE TABLE public.navigator_userstage_navigationoptions; TRUNCATE TABLE public.navigator_userstageassessment; TRUNCATE TABLE public.onboarding_navbarbutton; TRUNCATE TABLE public.login_history; TRUNCATE TABLE public.dashboard_physicianprofile; TRUNCATE TABLE public.thermometer_usertrackingrecord_problems; TRUNCATE TABLE public.misc_customperiodictask; TRUNCATE TABLE public.medication_medication; TRUNCATE TABLE public.navigator_userpause; TRUNCATE TABLE public.onboarding_question; TRUNCATE TABLE public.quality_score; TRUNCATE TABLE public.thermometer_userexplainerseen; TRUNCATE TABLE public.push_notifications_usernotificationschedule; TRUNCATE TABLE public.navigator_userjourney; TRUNCATE TABLE public.media_type; TRUNCATE TABLE public.treatments_appointment; TRUNCATE TABLE public.organization_user; TRUNCATE TABLE public.onboarding_onboardingtext; TRUNCATE TABLE public.recommender_priority_hint; TRUNCATE TABLE public.push_notifications_userdevice_users; TRUNCATE TABLE public.django_celery_beat_periodictask; TRUNCATE TABLE public.onboarding_onboardingscreen_text; TRUNCATE TABLE public.onboarding_onboardingscreen_navbar_button; TRUNCATE TABLE public.organizations; TRUNCATE TABLE public.misc_rruleschedule; TRUNCATE TABLE public.django_celery_beat_crontabschedule; TRUNCATE TABLE public.app_access_userappprescription; 
+
+# 2024-07-02 12:22:59.770798
++select count(*) from onboarding_useranswer_answer_obj
+
+# 2024-07-02 12:24:09.155960
++TRUNCATE TABLE public.navigator_userstage_navigationoptions; TRUNCATE TABLE public.organizations; TRUNCATE TABLE public.medication_medication; TRUNCATE TABLE public.onboarding_onboardingscreen_media; TRUNCATE TABLE public.distress_management_activities; TRUNCATE TABLE public.django_celery_beat_periodictask; TRUNCATE TABLE public.push_notifications_usernotification; TRUNCATE TABLE public.quality_score; TRUNCATE TABLE public.push_notifications_notification; TRUNCATE TABLE public.misc_rruleschedule; TRUNCATE TABLE public.medical_management_receptorstatus; TRUNCATE TABLE public.onboarding_usersession; TRUNCATE TABLE public.onboarding_screenmedia; TRUNCATE TABLE public.onboarding_onboardingscreen; TRUNCATE TABLE public.onboarding_onboardingscreen_input; TRUNCATE TABLE public.thermometer_userexplainerseen; TRUNCATE TABLE public.recommender_priority_hint; TRUNCATE TABLE public.distress_management_useractivitycompleted; TRUNCATE TABLE public.onboarding_onboardingscreen_checkbox; TRUNCATE TABLE public.misc_customperiodictask; TRUNCATE TABLE public.meinmika_infoboxnotification; TRUNCATE TABLE public.navigator_userexercisetask; TRUNCATE TABLE public.django_celery_beat_crontabschedule; TRUNCATE TABLE public.intro_doc_category; TRUNCATE TABLE public.navigator_userstage; TRUNCATE TABLE public.login_history; TRUNCATE TABLE public.push_notifications_notificationtargetscreen; TRUNCATE TABLE public.file_vault_pdffile; TRUNCATE TABLE public.onboarding_onboardingtext_action; TRUNCATE TABLE public.outreach_lead; TRUNCATE TABLE public.media_type; TRUNCATE TABLE public.onboarding_onboardingflow_screen; TRUNCATE TABLE public.push_notifications_usernotificationschedule; TRUNCATE TABLE public.meinmika_userinfoboxnotification; TRUNCATE TABLE public.thermometer_diaryentry; TRUNCATE TABLE public.onboarding_screencheckboxes; TRUNCATE TABLE public.onboarding_onboardingtext; TRUNCATE TABLE public.dashboard_physicianprofile; TRUNCATE TABLE public.onboarding_useranswer; TRUNCATE TABLE public.onboarding_onboardingscreeninput; TRUNCATE TABLE public.navigator_userstageassessment; TRUNCATE TABLE public.medical_management_therapytype; TRUNCATE TABLE public.onboarding_onboardingscreen_text; TRUNCATE TABLE public.app_access_userappprescription; TRUNCATE TABLE public.onboarding_useranswer_answer_obj; TRUNCATE TABLE public.thermometer_usertrackingrecord_problems; TRUNCATE TABLE public.distress_management_userintention; TRUNCATE TABLE public.push_notifications_userdevice_users; TRUNCATE TABLE public.onboarding_question; TRUNCATE TABLE public.treatments_appointment; TRUNCATE TABLE public.onboarding_onboardingscreen_banner; TRUNCATE TABLE public.onboarding_onboardingscreen_navbar_button; TRUNCATE TABLE public.push_notifications_userdevice; TRUNCATE TABLE public.organization_user; 
+
+# 2024-07-02 13:20:57.486482
++select count(*) from treatments_appointment
+
+# 2024-07-02 19:47:24.660287
++select count(*) from token_blacklist_blacklistedtoken
+
+# 2024-07-02 19:47:39.016675
++show tables
+
+# 2024-07-02 19:47:41.518667
++\q
+
+# 2024-07-02 19:48:05.189845
++use fosanis_staging
+
+# 2024-07-02 19:48:07.686164
++select count(*) from token_blacklist_blacklistedtoken
+
+# 2024-07-02 19:48:12.189156
++\dt
+
+# 2024-07-02 19:53:00.701914
++select count(*) from token_blacklist_blacklistedtoken
+
+# 2024-07-02 19:58:47.565697
++TRUNCATE TABLE public.django_migrations; TRUNCATE TABLE public.organization_user; TRUNCATE TABLE public.distress_management_userintention; TRUNCATE TABLE public.distress_management_useractivitycompleted; TRUNCATE TABLE public.onboarding_usersession; TRUNCATE TABLE public.push_notifications_userdevice; TRUNCATE TABLE public.medication_medication; TRUNCATE TABLE public.navigator_userstage_navigationoptions; TRUNCATE TABLE public.distress_management_activities; TRUNCATE TABLE public.navigator_userexercisetask; TRUNCATE TABLE public.django_celery_beat_crontabschedule; TRUNCATE TABLE public.admin_commands_commandruninstance; TRUNCATE TABLE public.onboarding_onboardingscreen_input; TRUNCATE TABLE public.meinmika_infoboxnotification; TRUNCATE TABLE public.outreach_lead; TRUNCATE TABLE public.onboarding_onboardingscreen_text; TRUNCATE TABLE public.navigator_userstageassessment; TRUNCATE TABLE public.django_celery_beat_periodictask; TRUNCATE TABLE public.django_content_type; TRUNCATE TABLE public.push_notifications_usernotification; TRUNCATE TABLE public.quality_score; TRUNCATE TABLE public.onboarding_useranswer_answer_obj; TRUNCATE TABLE public.onboarding_onboardingscreeninput; TRUNCATE TABLE public.onboarding_useranswer; TRUNCATE TABLE public.token_blacklist_blacklistedtoken; TRUNCATE TABLE public.media_type; TRUNCATE TABLE public.token_blacklist_outstandingtoken; TRUNCATE TABLE public.onboarding_onboardingscreen_banner; TRUNCATE TABLE public.django_session; TRUNCATE TABLE public.onboarding_onboardingtext; TRUNCATE TABLE public.onboarding_onboardingscreen_media; TRUNCATE TABLE public.login_history; TRUNCATE TABLE public.push_notifications_notification; TRUNCATE TABLE public.push_notifications_userdevice_users; TRUNCATE TABLE public.file_vault_pdffile; TRUNCATE TABLE public.onboarding_onboardingscreen_navbar_button; TRUNCATE TABLE public.onboarding_question; TRUNCATE TABLE public.thermometer_diaryentry; TRUNCATE TABLE public.onboarding_onboardingflow_screen; TRUNCATE TABLE public.push_notifications_notificationtargetscreen; TRUNCATE TABLE public.medical_management_therapytype; TRUNCATE TABLE public.recommender_priority_hint; TRUNCATE TABLE public.treatments_appointment; TRUNCATE TABLE public.onboarding_screencheckboxes; TRUNCATE TABLE public.meinmika_userinfoboxnotification; TRUNCATE TABLE public.misc_customperiodictask; TRUNCATE TABLE public.onboarding_onboardingtext_action; TRUNCATE TABLE public.thermometer_usertrackingrecord_problems; TRUNCATE TABLE public.misc_rruleschedule; TRUNCATE TABLE public.medical_management_receptorstatus; TRUNCATE TABLE public.django_admin_log; TRUNCATE TABLE public.organizations; TRUNCATE TABLE public.intro_doc_category; TRUNCATE TABLE public.onboarding_screenmedia; TRUNCATE TABLE public.onboarding_onboardingscreen_checkbox; TRUNCATE TABLE public.dashboard_physicianprofile; TRUNCATE TABLE public.push_notifications_usernotificationschedule; TRUNCATE TABLE public.thermometer_userexplainerseen; TRUNCATE TABLE public.app_access_userappprescription; TRUNCATE TABLE public.onboarding_onboardingscreen; 
+
+# 2024-07-02 20:14:39.338838
++select * from stl_load_errors order by starttime desc;
+
+# 2024-07-02 20:17:34.740609
++select * from 1073955097
+
+# 2024-07-02 20:18:15.849660
++select * from stl_load_errors order by starttime desc;
+
+# 2024-07-02 20:19:28.897625
++select * from django_session
+
+# 2024-07-02 20:19:36.035771
++select * from django_session limit 50
+
+# 2024-07-02 20:20:59.623672
++select * from token_blacklist_blacklistedtoken limit 5
+
+# 2024-07-02 23:46:31.026932
++TRUNCATE TABLE public.onboarding_screencheckboxes; TRUNCATE TABLE public.media_type; TRUNCATE TABLE public.onboarding_onboardingscreen_navbar_button; TRUNCATE TABLE public.onboarding_onboardingscreen_media; TRUNCATE TABLE public.onboarding_onboardingflow_screen; TRUNCATE TABLE public.organizations; TRUNCATE TABLE public.token_blacklist_outstandingtoken; TRUNCATE TABLE public.medication_medication; TRUNCATE TABLE public.login_history; TRUNCATE TABLE public.thermometer_usertrackingrecord_problems; TRUNCATE TABLE public.outreach_lead; TRUNCATE TABLE public.onboarding_onboardingscreen_input; TRUNCATE TABLE public.django_session; TRUNCATE TABLE public.onboarding_onboardingscreen_checkbox; TRUNCATE TABLE public.thermometer_userexplainerseen; TRUNCATE TABLE public.onboarding_onboardingscreen; TRUNCATE TABLE public.meinmika_userinfoboxnotification; TRUNCATE TABLE public.navigator_userstageassessment; TRUNCATE TABLE public.app_access_userappprescription; TRUNCATE TABLE public.thermometer_diaryentry; TRUNCATE TABLE public.organization_user; TRUNCATE TABLE public.onboarding_onboardingscreen_banner; TRUNCATE TABLE public.django_content_type; TRUNCATE TABLE public.navigator_userexercisetask; TRUNCATE TABLE public.token_blacklist_blacklistedtoken; TRUNCATE TABLE public.push_notifications_notificationtargetscreen; TRUNCATE TABLE public.onboarding_onboardingscreen_text; TRUNCATE TABLE public.onboarding_screenmedia; TRUNCATE TABLE public.django_celery_beat_crontabschedule; TRUNCATE TABLE public.misc_rruleschedule; TRUNCATE TABLE public.file_vault_pdffile; TRUNCATE TABLE public.distress_management_useractivitycompleted; TRUNCATE TABLE public.dashboard_physicianprofile; TRUNCATE TABLE public.push_notifications_notification; TRUNCATE TABLE public.medical_management_therapytype; TRUNCATE TABLE public.treatments_appointment; TRUNCATE TABLE public.push_notifications_userdevice; TRUNCATE TABLE public.push_notifications_userdevice_users; TRUNCATE TABLE public.navigator_userstage_navigationoptions; TRUNCATE TABLE public.onboarding_useranswer_answer_obj; TRUNCATE TABLE public.onboarding_onboardingscreeninput; TRUNCATE TABLE public.medical_management_receptorstatus; TRUNCATE TABLE public.onboarding_usersession; TRUNCATE TABLE public.recommender_priority_hint; TRUNCATE TABLE public.intro_doc_category; TRUNCATE TABLE public.quality_score; TRUNCATE TABLE public.distress_management_activities; TRUNCATE TABLE public.misc_customperiodictask; TRUNCATE TABLE public.meinmika_infoboxnotification; TRUNCATE TABLE public.onboarding_onboardingtext; TRUNCATE TABLE public.admin_commands_commandruninstance; TRUNCATE TABLE public.django_celery_beat_periodictask; TRUNCATE TABLE public.onboarding_onboardingtext_action; TRUNCATE TABLE public.onboarding_useranswer; TRUNCATE TABLE public.distress_management_userintention; TRUNCATE TABLE public.django_migrations; TRUNCATE TABLE public.django_admin_log; TRUNCATE TABLE public.onboarding_question; TRUNCATE TABLE public.push_notifications_usernotification; TRUNCATE TABLE public.push_notifications_usernotificationschedule; 
+
+# 2024-07-03 09:55:41.156844
++TRUNCATE TABLE public.django_celery_beat_crontabschedule; TRUNCATE TABLE public.onboarding_onboardingflow_screen; TRUNCATE TABLE public.file_vault_pdffile; TRUNCATE TABLE public.misc_rruleschedule; TRUNCATE TABLE public.recommender_priority_hint; TRUNCATE TABLE public.push_notifications_notificationtargetscreen; TRUNCATE TABLE public.login_history; TRUNCATE TABLE public.onboarding_onboardingscreen_navbar_button; TRUNCATE TABLE public.onboarding_onboardingscreeninput; TRUNCATE TABLE public.onboarding_onboardingtext; TRUNCATE TABLE public.onboarding_onboardingscreen; TRUNCATE TABLE public.medical_management_therapytype; TRUNCATE TABLE public.medical_management_receptorstatus; TRUNCATE TABLE public.onboarding_onboardingscreen_banner; TRUNCATE TABLE public.intro_doc_category; TRUNCATE TABLE public.outreach_lead; TRUNCATE TABLE public.quality_score; TRUNCATE TABLE public.medication_medication; TRUNCATE TABLE public.onboarding_onboardingscreen_input; TRUNCATE TABLE public.misc_customperiodictask; TRUNCATE TABLE public.distress_management_useractivitycompleted; TRUNCATE TABLE public.meinmika_userinfoboxnotification; TRUNCATE TABLE public.navigator_userstageassessment; TRUNCATE TABLE public.push_notifications_usernotification; TRUNCATE TABLE public.onboarding_onboardingscreen_checkbox; TRUNCATE TABLE public.push_notifications_notification; TRUNCATE TABLE public.onboarding_screencheckboxes; TRUNCATE TABLE public.media_type; TRUNCATE TABLE public.navigator_userexercisetask; TRUNCATE TABLE public.onboarding_question; TRUNCATE TABLE public.thermometer_userexplainerseen; TRUNCATE TABLE public.onboarding_onboardingscreen_text; TRUNCATE TABLE public.thermometer_diaryentry; TRUNCATE TABLE public.push_notifications_userdevice_users; TRUNCATE TABLE public.onboarding_onboardingtext_action; TRUNCATE TABLE public.treatments_appointment; TRUNCATE TABLE public.meinmika_infoboxnotification; TRUNCATE TABLE public.onboarding_useranswer; TRUNCATE TABLE public.dashboard_physicianprofile; TRUNCATE TABLE public.onboarding_onboardingscreen_media; TRUNCATE TABLE public.distress_management_userintention; TRUNCATE TABLE public.push_notifications_userdevice; TRUNCATE TABLE public.organization_user; TRUNCATE TABLE public.onboarding_usersession; TRUNCATE TABLE public.django_celery_beat_periodictask; TRUNCATE TABLE public.app_access_userappprescription; TRUNCATE TABLE public.distress_management_activities; TRUNCATE TABLE public.onboarding_screenmedia; TRUNCATE TABLE public.onboarding_useranswer_answer_obj; TRUNCATE TABLE public.push_notifications_usernotificationschedule; TRUNCATE TABLE public.navigator_userstage_navigationoptions; TRUNCATE TABLE public.organizations; TRUNCATE TABLE public.treatments_treatment; TRUNCATE TABLE public.thermometer_usertrackingrecord_problems; 
+
+# 2024-07-03 10:00:30.297004
++select count(*) from onboarding_useranswer_answer_obj
+
+# 2024-07-03 10:06:13.816178
++select * from stl_load_errors order by starttime desc;
+
+# 2024-07-03 10:07:45.196747
++show columns from django_celery_beat_periodictask
+
+# 2024-07-03 10:07:58.047503
++show create table django_celery_beat_periodictask
+
+# 2024-07-03 10:08:04.920274
++show create table "django_celery_beat_periodictask"
+
+# 2024-07-03 10:08:10.763218
++show columns from "django_celery_beat_periodictask"
+
+# 2024-07-03 10:08:13.511697
++show columns from "public.django_celery_beat_periodictask"
+
+# 2024-07-03 10:08:18.261821
++\dt django_celery_beat_periodictask
+
+# 2024-07-03 10:08:28.931715
++select * from django_celery_beat_periodictask
+
+# 2024-07-03 10:08:47.610563
++select * from misc_rruleschedule
+
+# 2024-07-03 10:11:20.653100
++show table misc_rruleschedule
+
+# 2024-07-03 10:15:16.164726
++select * from stl_load_errors order by starttime desc;
+
+# 2024-07-23 14:50:06.235237
++use fosanis_staging
+
+# 2024-07-23 14:50:09.631143
++select * from stl_load_errors order by starttime desc;
