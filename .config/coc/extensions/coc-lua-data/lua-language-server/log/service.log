@@ -1,10 +1,10 @@
-[23:40:29.932][info] [#0:/Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/main.lua:68]: Lua Lsp startup, root: 	/Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server
-[23:40:29.934][info] [#0:/Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/main.lua:69]: ROOT:	/Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server
-[23:40:29.934][info] [#0:/Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/main.lua:70]: LOGPATH:	/Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/log
-[23:40:29.934][info] [#0:/Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/main.lua:71]: METAPATH:	/Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta
-[23:40:29.935][info] [#0:/Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/main.lua:72]: VERSION:	3.10.4
-[23:40:29.969][info] [#0:script/proto/proto.lua:234]: Listen Mode: stdio
-[23:40:29.969][info] [#0:script/service/service.lua:146]: 
+[22:10:37.374][info] [#0:/Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/main.lua:68]: Lua Lsp startup, root: 	/Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server
+[22:10:37.374][info] [#0:/Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/main.lua:69]: ROOT:	/Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server
+[22:10:37.374][info] [#0:/Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/main.lua:70]: LOGPATH:	/Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/log
+[22:10:37.374][info] [#0:/Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/main.lua:71]: METAPATH:	/Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta
+[22:10:37.375][info] [#0:/Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/main.lua:72]: VERSION:	3.10.4
+[22:10:37.408][info] [#0:script/proto/proto.lua:234]: Listen Mode: stdio
+[22:10:37.408][info] [#0:script/service/service.lua:146]: 
 ========= Medical Examination Report =========
     --------------- Memory ---------------
         Total: 2.222 MB
@@ -26,7 +26,7 @@
         Holdon:   0
         Waiting:  0
 ==============================================
-[23:40:29.975][info] [#0:script/client.lua:657]: Client init	{
+[22:10:37.414][info] [#0:script/client.lua:657]: Client init	{
   capabilities = {
     general = {
       markdown = {
@@ -309,17 +309,17 @@
     changeConfiguration = true
   },
   locale = "en_GB",
-  processId = 10579,
+  processId = 57297,
   rootPath = "/Users/vlad-balance-pl/.config/nvim",
   rootUri = "file:///Users/vlad-balance-pl/.config/nvim",
   trace = "off",
-  workDoneToken = "1d974b28-dac7-4189-bf01-148cb6a1952f",
+  workDoneToken = "694941d1-fff3-4c32-8c3a-09f7ffb867c1",
   workspaceFolders = { {
       name = "nvim",
       uri = "file:///Users/vlad-balance-pl/.config/nvim"
     } }
 }
-[23:40:29.976][info] [#0:script/language.lua:137]: VSC language: en_GB
-[23:40:29.976][info] [#0:script/language.lua:138]: LS  language: en-us
-[23:40:29.976][info] [#0:script/workspace/workspace.lua:38]: Workspace init root: 	file:///Users/vlad-balance-pl/.config/nvim
-[23:40:29.976][info] [#0:script/workspace/workspace.lua:42]: Log path: 	/Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/log/file_Users_vlad-balance-pl_.config_nvim.log
+[22:10:37.414][info] [#0:script/language.lua:137]: VSC language: en_GB
+[22:10:37.414][info] [#0:script/language.lua:138]: LS  language: en-us
+[22:10:37.414][info] [#0:script/workspace/workspace.lua:38]: Workspace init root: 	file:///Users/vlad-balance-pl/.config/nvim
+[22:10:37.414][info] [#0:script/workspace/workspace.lua:42]: Log path: 	/Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/log/file_Users_vlad-balance-pl_.config_nvim.log

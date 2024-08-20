@@ -1,10 +1,10 @@
-[23:40:29.932][info] [#0:/Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/main.lua:68]: Lua Lsp startup, root: 	/Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server
-[23:40:29.934][info] [#0:/Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/main.lua:69]: ROOT:	/Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server
-[23:40:29.934][info] [#0:/Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/main.lua:70]: LOGPATH:	/Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/log
-[23:40:29.934][info] [#0:/Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/main.lua:71]: METAPATH:	/Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta
-[23:40:29.935][info] [#0:/Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/main.lua:72]: VERSION:	3.10.4
-[23:40:29.969][info] [#0:script/proto/proto.lua:234]: Listen Mode: stdio
-[23:40:29.969][info] [#0:script/service/service.lua:146]: 
+[22:10:37.374][info] [#0:/Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/main.lua:68]: Lua Lsp startup, root: 	/Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server
+[22:10:37.374][info] [#0:/Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/main.lua:69]: ROOT:	/Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server
+[22:10:37.374][info] [#0:/Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/main.lua:70]: LOGPATH:	/Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/log
+[22:10:37.374][info] [#0:/Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/main.lua:71]: METAPATH:	/Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta
+[22:10:37.375][info] [#0:/Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/main.lua:72]: VERSION:	3.10.4
+[22:10:37.408][info] [#0:script/proto/proto.lua:234]: Listen Mode: stdio
+[22:10:37.408][info] [#0:script/service/service.lua:146]: 
 ========= Medical Examination Report =========
     --------------- Memory ---------------
         Total: 2.222 MB
@@ -26,7 +26,7 @@
         Holdon:   0
         Waiting:  0
 ==============================================
-[23:40:29.975][info] [#0:script/client.lua:657]: Client init	{
+[22:10:37.414][info] [#0:script/client.lua:657]: Client init	{
   capabilities = {
     general = {
       markdown = {
@@ -309,23 +309,23 @@
     changeConfiguration = true
   },
   locale = "en_GB",
-  processId = 10579,
+  processId = 57297,
   rootPath = "/Users/vlad-balance-pl/.config/nvim",
   rootUri = "file:///Users/vlad-balance-pl/.config/nvim",
   trace = "off",
-  workDoneToken = "1d974b28-dac7-4189-bf01-148cb6a1952f",
+  workDoneToken = "694941d1-fff3-4c32-8c3a-09f7ffb867c1",
   workspaceFolders = { {
       name = "nvim",
       uri = "file:///Users/vlad-balance-pl/.config/nvim"
     } }
 }
-[23:40:29.976][info] [#0:script/language.lua:137]: VSC language: en_GB
-[23:40:29.976][info] [#0:script/language.lua:138]: LS  language: en-us
-[23:40:29.976][info] [#0:script/workspace/workspace.lua:38]: Workspace init root: 	file:///Users/vlad-balance-pl/.config/nvim
-[23:40:29.976][info] [#0:script/workspace/workspace.lua:42]: Log path: 	/Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/log/file_Users_vlad-balance-pl_.config_nvim.log
-[23:40:29.982][info] [#0:script/workspace/workspace.lua:48]: Workspace create: 	file:///Users/vlad-balance-pl/.config/nvim
-[23:40:30.195][info] [#0:script/provider/provider.lua:46]: Load config from client	file:///Users/vlad-balance-pl/.config/nvim
-[23:40:30.197][info] [#0:script/provider/provider.lua:47]: {
+[22:10:37.414][info] [#0:script/language.lua:137]: VSC language: en_GB
+[22:10:37.414][info] [#0:script/language.lua:138]: LS  language: en-us
+[22:10:37.414][info] [#0:script/workspace/workspace.lua:38]: Workspace init root: 	file:///Users/vlad-balance-pl/.config/nvim
+[22:10:37.414][info] [#0:script/workspace/workspace.lua:42]: Log path: 	/Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/log/file_Users_vlad-balance-pl_.config_nvim.log
+[22:10:37.414][info] [#0:script/workspace/workspace.lua:48]: Workspace create: 	file:///Users/vlad-balance-pl/.config/nvim
+[22:10:37.624][info] [#0:script/provider/provider.lua:46]: Load config from client	file:///Users/vlad-balance-pl/.config/nvim
+[22:10:37.624][info] [#0:script/provider/provider.lua:47]: {
   Lua = {
     addonManager = {
       enable = true
@@ -433,9 +433,9 @@
     }
   }
 }
-[23:40:30.304][info] [#0:script/provider/completion.lua:43]: Enable completion.
-[23:40:30.305][info] [#0:script/provider/provider.lua:61]: Load config from client	fallback
-[23:40:30.306][info] [#0:script/provider/provider.lua:62]: {
+[22:10:37.733][info] [#0:script/provider/completion.lua:43]: Enable completion.
+[22:10:37.734][info] [#0:script/provider/provider.lua:61]: Load config from client	fallback
+[22:10:37.736][info] [#0:script/provider/provider.lua:62]: {
   Lua = {
     addonManager = {
       enable = true
@@ -543,81 +543,101 @@
     }
   }
 }
-[23:40:30.552][info] [#0:script/plugin.lua:169]: plugin path:	/Users/vlad-balance-pl/.config/nvim
-[23:40:30.553][warn] [#0:script/plugin.lua:184]: plugin not found:	/Users/vlad-balance-pl/.config/nvim
-[23:40:30.553][info] [#0:script/library.lua:212]: Init builtin library at:	file:///Users/vlad-balance-pl/.config/nvim
-[23:40:30.574][info] [#0:script/library.lua:212]: Init builtin library at:	nil
-[23:40:30.686][info] [#0:script/workspace/workspace.lua:324]: Preload start:	file:///Users/vlad-balance-pl/.config/nvim
-[23:40:30.696][info] [#0:script/workspace/workspace.lua:330]: Scan files at:	file:///Users/vlad-balance-pl/.config/nvim
-[23:40:30.699][info] [#0:script/workspace/workspace.lua:324]: Preload start:	<fallback>
-[23:40:30.704][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/utf8.lua
-[23:40:30.704][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/builtin.lua
-[23:40:30.705][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/string.lua
-[23:40:30.705][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/basic.lua
-[23:40:30.706][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/utf8.lua
-[23:40:30.706][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/debug.lua
-[23:40:30.707][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/builtin.lua
-[23:40:30.707][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/io.lua
-[23:40:30.707][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/string.lua
-[23:40:30.707][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/package.lua
-[23:40:30.707][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/basic.lua
-[23:40:30.708][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/table.lua
-[23:40:30.708][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/debug.lua
-[23:40:30.708][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/os.lua
-[23:40:30.708][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/io.lua
-[23:40:30.708][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/coroutine.lua
-[23:40:30.708][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/package.lua
-[23:40:30.708][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/math.lua
-[23:40:30.709][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/table.lua
-[23:40:30.709][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/os.lua
-[23:40:30.709][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/coroutine.lua
-[23:40:30.709][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/math.lua
-[23:40:30.810][info] [#0:script/workspace/workspace.lua:379]: Found 11 files at:	<fallback>
-[23:40:30.810][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	<fallback>
-[23:40:30.810][info] [#0:script/workspace/workspace.lua:379]: Found 13 files at:	file:///Users/vlad-balance-pl/.config/nvim
-[23:40:30.810][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	file:///Users/vlad-balance-pl/.config/nvim
-[23:40:30.813][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///Users/vlad-balance-pl/.config/nvim/plugin/toggleterm.lua
-[23:40:30.916][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/math.lua , size = 8.509 KB
-[23:40:30.933][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/math.lua
-[23:40:30.933][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/coroutine.lua , size = 2.590 KB
-[23:40:30.936][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/coroutine.lua
-[23:40:30.936][info] [#0:script/workspace/loading.lua:98]: Skip loaded file: file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/coroutine.lua
-[23:40:30.936][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/os.lua , size = 5.600 KB
-[23:40:30.940][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/os.lua
-[23:40:30.940][info] [#0:script/workspace/loading.lua:98]: Skip loaded file: file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/os.lua
-[23:40:30.940][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/table.lua , size = 4.235 KB
-[23:40:30.942][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/table.lua
-[23:40:30.942][info] [#0:script/workspace/loading.lua:98]: Skip loaded file: file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/table.lua
-[23:40:30.942][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/package.lua , size = 2.944 KB
-[23:40:30.943][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/package.lua
-[23:40:30.943][info] [#0:script/workspace/loading.lua:98]: Skip loaded file: file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/package.lua
-[23:40:30.943][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/io.lua , size = 6.364 KB
-[23:40:30.946][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/io.lua
-[23:40:30.946][info] [#0:script/workspace/loading.lua:98]: Skip loaded file: file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/io.lua
-[23:40:30.946][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/debug.lua , size = 7.637 KB
-[23:40:30.949][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/debug.lua
-[23:40:30.949][info] [#0:script/workspace/loading.lua:98]: Skip loaded file: file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/math.lua
-[23:40:30.949][info] [#0:script/workspace/loading.lua:98]: Skip loaded file: file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/debug.lua
-[23:40:30.949][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/basic.lua , size = 15.619 KB
-[23:40:30.955][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/basic.lua
-[23:40:30.955][info] [#0:script/workspace/loading.lua:98]: Skip loaded file: file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/basic.lua
-[23:40:30.955][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/string.lua , size = 6.327 KB
-[23:40:30.957][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/string.lua
-[23:40:30.957][info] [#0:script/workspace/loading.lua:98]: Skip loaded file: file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/string.lua
-[23:40:30.957][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/builtin.lua , size = 0.302 KB
-[23:40:30.957][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/builtin.lua
-[23:40:30.957][info] [#0:script/workspace/loading.lua:98]: Skip loaded file: file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/builtin.lua
-[23:40:30.957][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/utf8.lua , size = 2.386 KB
-[23:40:30.958][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/utf8.lua
-[23:40:30.958][info] [#0:script/workspace/loading.lua:98]: Skip loaded file: file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/utf8.lua
-[23:40:30.958][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///Users/vlad-balance-pl/.config/nvim/plugin/telescope.lua , size = 0.738 KB
-[23:40:31.059][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.048] sec: <fallback>
-[23:40:31.059][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: <fallback>
-[23:40:31.059][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	<fallback>
-[23:40:31.059][info] [#0:script/workspace/workspace.lua:381]: Preload finish at:	<fallback>
-[23:40:31.077][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.061] sec: file:///Users/vlad-balance-pl/.config/nvim
-[23:40:31.077][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: file:///Users/vlad-balance-pl/.config/nvim
-[23:40:31.077][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	file:///Users/vlad-balance-pl/.config/nvim
-[23:40:31.077][info] [#0:script/workspace/workspace.lua:381]: Preload finish at:	file:///Users/vlad-balance-pl/.config/nvim
-[23:40:31.083][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///Users/vlad-balance-pl/.config/nvim], files count:[13]
-[23:40:31.097][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///Users/vlad-balance-pl/.config/nvim] finished, takes [0.009] sec.
+[22:10:37.974][info] [#0:script/plugin.lua:169]: plugin path:	/Users/vlad-balance-pl/.config/nvim
+[22:10:37.974][warn] [#0:script/plugin.lua:184]: plugin not found:	/Users/vlad-balance-pl/.config/nvim
+[22:10:37.974][info] [#0:script/library.lua:212]: Init builtin library at:	file:///Users/vlad-balance-pl/.config/nvim
+[22:10:37.997][info] [#0:script/library.lua:212]: Init builtin library at:	nil
+[22:10:38.112][info] [#0:script/workspace/workspace.lua:324]: Preload start:	file:///Users/vlad-balance-pl/.config/nvim
+[22:10:38.125][info] [#0:script/workspace/workspace.lua:330]: Scan files at:	file:///Users/vlad-balance-pl/.config/nvim
+[22:10:38.126][info] [#0:script/workspace/workspace.lua:324]: Preload start:	<fallback>
+[22:10:38.129][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/utf8.lua
+[22:10:38.129][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/builtin.lua
+[22:10:38.129][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/string.lua
+[22:10:38.130][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/basic.lua
+[22:10:38.130][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/debug.lua
+[22:10:38.130][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/io.lua
+[22:10:38.130][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/package.lua
+[22:10:38.130][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/table.lua
+[22:10:38.131][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/os.lua
+[22:10:38.131][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/coroutine.lua
+[22:10:38.131][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/utf8.lua
+[22:10:38.131][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/math.lua
+[22:10:38.131][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/builtin.lua
+[22:10:38.131][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/string.lua
+[22:10:38.131][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/basic.lua
+[22:10:38.131][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/debug.lua
+[22:10:38.131][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/io.lua
+[22:10:38.132][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/package.lua
+[22:10:38.132][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/table.lua
+[22:10:38.132][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/os.lua
+[22:10:38.132][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/coroutine.lua
+[22:10:38.132][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/math.lua
+[22:10:38.235][info] [#0:script/workspace/workspace.lua:379]: Found 11 files at:	<fallback>
+[22:10:38.235][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	<fallback>
+[22:10:38.235][info] [#0:script/workspace/workspace.lua:379]: Found 19 files at:	file:///Users/vlad-balance-pl/.config/nvim
+[22:10:38.235][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	file:///Users/vlad-balance-pl/.config/nvim
+[22:10:38.243][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///Users/vlad-balance-pl/.config/nvim/plugin/telescope.lua
+[22:10:38.348][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/math.lua , size = 8.509 KB
+[22:10:38.384][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/math.lua
+[22:10:38.385][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/coroutine.lua , size = 2.590 KB
+[22:10:38.388][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/coroutine.lua
+[22:10:38.388][info] [#0:script/workspace/loading.lua:98]: Skip loaded file: file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/coroutine.lua
+[22:10:38.388][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/os.lua , size = 5.600 KB
+[22:10:38.392][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/os.lua
+[22:10:38.392][info] [#0:script/workspace/loading.lua:98]: Skip loaded file: file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/os.lua
+[22:10:38.392][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/table.lua , size = 4.235 KB
+[22:10:38.396][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/table.lua
+[22:10:38.396][info] [#0:script/workspace/loading.lua:98]: Skip loaded file: file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/table.lua
+[22:10:38.396][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/package.lua , size = 2.944 KB
+[22:10:38.398][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/package.lua
+[22:10:38.398][info] [#0:script/workspace/loading.lua:98]: Skip loaded file: file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/package.lua
+[22:10:38.398][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/io.lua , size = 6.364 KB
+[22:10:38.404][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/io.lua
+[22:10:38.404][info] [#0:script/workspace/loading.lua:98]: Skip loaded file: file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/io.lua
+[22:10:38.404][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/debug.lua , size = 7.637 KB
+[22:10:38.409][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/debug.lua
+[22:10:38.409][info] [#0:script/workspace/loading.lua:98]: Skip loaded file: file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/debug.lua
+[22:10:38.409][info] [#0:script/workspace/loading.lua:98]: Skip loaded file: file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/math.lua
+[22:10:38.409][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/basic.lua , size = 15.619 KB
+[22:10:38.418][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/basic.lua
+[22:10:38.418][info] [#0:script/workspace/loading.lua:98]: Skip loaded file: file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/basic.lua
+[22:10:38.418][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/string.lua , size = 6.327 KB
+[22:10:38.421][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/string.lua
+[22:10:38.421][info] [#0:script/workspace/loading.lua:98]: Skip loaded file: file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/string.lua
+[22:10:38.421][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/builtin.lua , size = 0.302 KB
+[22:10:38.421][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/builtin.lua
+[22:10:38.421][info] [#0:script/workspace/loading.lua:98]: Skip loaded file: file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/builtin.lua
+[22:10:38.422][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/utf8.lua , size = 2.386 KB
+[22:10:38.423][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/utf8.lua
+[22:10:38.423][info] [#0:script/workspace/loading.lua:98]: Skip loaded file: file:///Users/vlad-balance-pl/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/utf8.lua
+[22:10:38.423][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///Users/vlad-balance-pl/.config/nvim/plugin/treesitter.lua , size = 0.872 KB
+[22:10:38.423][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///Users/vlad-balance-pl/.config/nvim/plugin/coc.lua , size = 2.986 KB
+[22:10:38.425][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///Users/vlad-balance-pl/.config/nvim/plugin/toggleterm.lua , size = 0.419 KB
+[22:10:38.425][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///Users/vlad-balance-pl/.config/nvim/plugin/vimspector.lua , size = 0.260 KB
+[22:10:38.425][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///Users/vlad-balance-pl/.config/nvim/lua/wattabak/keymap.lua , size = 0.021 KB
+[22:10:38.425][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///Users/vlad-balance-pl/.config/nvim/lua/wattabak/init.lua , size = 0.055 KB
+[22:10:38.426][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///Users/vlad-balance-pl/.config/nvim/lua/wattabak/vimplug.lua , size = 1.536 KB
+[22:10:38.528][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.066] sec: <fallback>
+[22:10:38.529][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: <fallback>
+[22:10:38.529][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	<fallback>
+[22:10:38.529][info] [#0:script/workspace/workspace.lua:381]: Preload finish at:	<fallback>
+[22:10:38.544][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.076] sec: file:///Users/vlad-balance-pl/.config/nvim
+[22:10:38.544][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: file:///Users/vlad-balance-pl/.config/nvim
+[22:10:38.544][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	file:///Users/vlad-balance-pl/.config/nvim
+[22:10:38.544][info] [#0:script/workspace/workspace.lua:381]: Preload finish at:	file:///Users/vlad-balance-pl/.config/nvim
+[22:10:38.550][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///Users/vlad-balance-pl/.config/nvim], files count:[19]
+[22:10:38.584][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///Users/vlad-balance-pl/.config/nvim] finished, takes [0.028] sec.
+[22:10:42.526][info] [#0:script/workspace/workspace.lua:284]: Scan files at:	file:///Users/vlad-balance-pl/.config/nvim/plugin/telescope.lua
+[22:10:42.529][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	file:///Users/vlad-balance-pl/.config/nvim/plugin/telescope.lua
+[22:10:42.529][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///Users/vlad-balance-pl/.config/nvim/plugin/telescope.lua
+[22:10:42.529][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.000] sec: file:///Users/vlad-balance-pl/.config/nvim/plugin/telescope.lua
+[22:10:42.530][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: file:///Users/vlad-balance-pl/.config/nvim/plugin/telescope.lua
+[22:10:42.530][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	file:///Users/vlad-balance-pl/.config/nvim/plugin/telescope.lua
+[22:10:43.475][info] [#0:script/workspace/workspace.lua:284]: Scan files at:	file:///Users/vlad-balance-pl/.config/nvim/plugin/telescope.lua
+[22:10:43.476][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	file:///Users/vlad-balance-pl/.config/nvim/plugin/telescope.lua
+[22:10:43.476][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///Users/vlad-balance-pl/.config/nvim/plugin/telescope.lua
+[22:10:43.476][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.000] sec: file:///Users/vlad-balance-pl/.config/nvim/plugin/telescope.lua
+[22:10:43.476][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: file:///Users/vlad-balance-pl/.config/nvim/plugin/telescope.lua
+[22:10:43.476][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	file:///Users/vlad-balance-pl/.config/nvim/plugin/telescope.lua
+[22:10:45.449][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///Users/vlad-balance-pl/.config/nvim], files count:[19]
+[22:10:45.483][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///Users/vlad-balance-pl/.config/nvim] finished, takes [0.031] sec.

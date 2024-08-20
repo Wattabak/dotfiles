@@ -1,5 +1,6 @@
 {
   "coc.preferences.formatOnSave": false,
+  "workspace.rootPatterns": [".git"],
   "python.venvPath": "${env:HOME}/.pyenv/versions",
   "pyright.testing.provider": "pytest",
   "python.formatting.provider": "black",
@@ -8,5 +9,5 @@
     "coc.preferences.formatOnSave": true
   },
   "languageserver": {},
-  "lua.enable": true,
+  "lua.enable": true
 }
