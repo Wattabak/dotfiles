@@ -1,3 +1,2 @@
 require("wattabak.keymap")
-require("wattabak.vimplug")
-
+require("wattabak.lazy")

@@ -1,0 +1,70 @@
+# $home/.config/alacritty/alacritty.toml
+# by rito ghosh 2023-10-06
+
+# alacritty now uses toml formatting for its config files.
+# this is a simple example.
+
+# there are the specification here: https://github.com/alacritty/alacritty/blob/master/extra/man/alacritty.5.scd
+# it is not obvious how it translates to toml. but it is extremely straightforward.
+
+# example: window, colors, etc. are tables, and should be represented as [window], [colors], respectively.
+# specifics of variables go under them. e.g.- look under "dynamic_padding" under-
+# https://github.com/alacritty/alacritty/blob/master/extra/man/alacritty.5.scd#window
+# write `dynamic_padding = true` (without backticks -`) under the table [window]
+# for variables with multiple values, use "dotted keys". like setting `padding.x = 5` under [window].
+# this is simple. if not clear, do several trials and errors.
+
+# below is my initial set-up. the toml homepage (https://toml.io/en/v1.0.0) was very helpful in figuring this out. 
+# i put the file alacritty.toml in $home/.config/alacritty. however it can be kept anywhere among the places mentioned in
+# https://github.com/alacritty/alacritty/tree/master#configuration
+[env]
+term = "xterm-256color"
+
+[window]
+
+opacity = 0.91
+
+padding.x = 5
+padding.y = 5
+
+decorations = "full"
+decorations_theme_variant = "light" # "dark"
+title = 'alacritty'
+option_as_alt = 'both'
+
+[font]
+
+size = 16.0
+
+[font.normal]
+family = 'dejavusansm nerd font mono'
+[font.bold]
+family = 'dejavusansm nerd font mono'
+
+# tip: for inspiration, look for values in the source code files of your favorite vs code themes, and use the color picker in
+# google to test colors before setting a value, or simply using an editor such as vs code where colors are displayed in a 
+# small box when a hex is detected by the editor.
+
+# command + left arrow: move to the beginning of the line (like ctrl+a)
+[[keyboard.bindings]]
+key = "Left"
+mods = "super"
+chars = "\u0001"
+
+# command + right arrow: move to the end of the line (like ctrl+e)
+[[keyboard.bindings]]
+key = "Right"
+mods = "super"
+chars = "\u0005"
+
+# Option + Left Arrow: Move backward one word (common binding in many shells/editors)
+[[keyboard.bindings]]
+key = "Left"
+mods = "Alt" # Or "Option" if option_as_alt is not "Both"
+chars = "\u001bb" # Sends Escape (\u001b) followed by 'b'
+
+# Option + Right Arrow: Move forward one word (common binding)
+[[keyboard.bindings]]
+key = "Right"
+mods = "Alt" # Or "Option" if option_as_alt is not "Both"
+chars = "\u001bf" # Sends Escape (\u001b) followed by 'f'
