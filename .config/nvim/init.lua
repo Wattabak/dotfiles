@@ -1,3 +1,7 @@
+if vim.fn.has("nvim-0.11") == 0 then
+  error("This config requires Neovim >= 0.11 (found " .. tostring(vim.version()) .. ")")
+end
+
 -- Basic settings
 vim.opt.compatible = false       -- Do not include old vi compatibility
 vim.opt.number = true            -- Line numbers
