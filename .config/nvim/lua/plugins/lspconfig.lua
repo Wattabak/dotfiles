@@ -3,6 +3,8 @@ return {
   {
     "neovim/nvim-lspconfig",
     dependencies = {
+      "williamboman/mason.nvim",
+      "williamboman/mason-lspconfig.nvim",
       {
         "folke/lazydev.nvim",
         ft = "lua", -- only load on lua files
@@ -16,11 +18,21 @@ return {
       },
     },
     config = function()
-      vim.lsp.enable("lua_ls")
+      vim.lsp.enable({
+        "lua_ls",
+        "pyright",
+        "ts_ls",
+        "marksman",
+        "terraformls",
+        "bashls",
+        "yamlls",
+      })
       vim.api.nvim_create_autocmd("LspAttach", {
         callback = function(args)
           local client = vim.lsp.get_client_by_id(args.data.client_id)
           if not client then return end
+
+          vim.keymap.set("n", "gd", vim.lsp.buf.definition, { buffer = args.buf, desc = "Go to definition" })
 
           if client.supports_method('textDocument/formatting') then
             vim.api.nvim_create_autocmd('BufWritePre', {
@@ -28,7 +40,6 @@ return {
               callback = function()
                 vim.lsp.buf.format({ bufnr = args.buf, id = client.id })
               end,
-
             })
           end
         end,

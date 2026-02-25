@@ -36,6 +36,7 @@ require("lazy").setup({
         "hrsh7th/cmp-buffer",
         "hrsh7th/cmp-path",
         "hrsh7th/cmp-cmdline",
+        "hrsh7th/cmp-nvim-lsp",
         "saadparwaiz1/cmp_luasnip",
         "L3MON4D3/LuaSnip",
       },
@@ -92,7 +93,9 @@ require("lazy").setup({
     {
       "williamboman/mason-lspconfig.nvim",
       config = function()
-        require("mason-lspconfig").setup()
+        require("mason-lspconfig").setup({
+          ensure_installed = { "pyright", "ts_ls", "marksman", "terraformls", "bashls", "lua_ls", "yamlls" },
+        })
       end
     },
     { import = "plugins" },
