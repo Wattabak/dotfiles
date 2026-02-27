@@ -183,3 +183,7 @@ export PATH="/opt/homebrew/opt/postgresql@16/bin:$PATH"
 if [ ! -d ~/.tmux/plugins/tpm ]; then
   git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 fi
+# Resurrect symlink
+if [ ! -e ~/.tmux/resurrect ]; then
+  ln -sf ~/.dotfiles/tmux/resurrect ~/.tmux/resurrect
+fi
