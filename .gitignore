@@ -1,2 +1,4 @@
 **/node_modules/**
 .config/qBittorrent/qBittorrent-data.ini
+.gitconfig.local
+.dotfile-profile

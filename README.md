@@ -13,6 +13,8 @@ Article on managing dotfiles: https://developer.atlassian.com/blog/2016/02/best-
 
 ```
 ~/.dotfiles/          # bare git repo
+~/.gitconfig          # git config (tracked) — portable settings only
+~/.gitconfig.local    # git config (NOT tracked) — user, email, credentials
 ~/.tmux.conf          # tmux config (tracked)
 ~/.zshrc              # shell config (tracked)
 ~/.dotfile-profile    # machine profile — NOT tracked, set per machine
@@ -23,11 +25,13 @@ Article on managing dotfiles: https://developer.atlassian.com/blog/2016/02/best-
 
 ### Key files
 
-| File | Purpose |
-|---|---|
-| `~/.dotfile-profile` | Contains the profile name for this machine (`personal` or `work`) |
-| `~/.zshrc` | Sources the profile and exports `$DOTFILE_PROFILE` |
-| `~/.tmux.conf` | Uses `$DOTFILE_PROFILE` to pick the resurrect session directory |
+| File | Tracked | Purpose |
+|---|---|---|
+| `~/.gitconfig` | yes | Portable git settings — editor, difftool, aliases |
+| `~/.gitconfig.local` | no | Machine-specific — user name, email, credentials |
+| `~/.dotfile-profile` | no | Profile name for this machine (`personal` or `work`) |
+| `~/.zshrc` | yes | Sources the profile, exports `$DOTFILE_PROFILE` |
+| `~/.tmux.conf` | yes | Uses `$DOTFILE_PROFILE` to pick the resurrect session dir |
 
 ---
 
@@ -65,9 +69,22 @@ git clone --bare <repo-url> ~/.dotfiles
 # 3. Set the machine profile
 echo "personal" > ~/.dotfile-profile   # or "work"
 
-# 4. Start a new shell — zshrc will create the resurrect dir automatically
+# 4. Create ~/.gitconfig.local with credentials for this machine
+cat > ~/.gitconfig.local << 'EOF'
+[user]
+    name = Your Name
+    email = you@example.com
 
-# 5. Start tmux — tpm will install plugins on first run, continuum will restore sessions
+[credential "https://github.com"]
+    username = your-github-username
+
+[credential]
+    helper = /path/to/git-credential-manager
+EOF
+
+# 5. Start a new shell — zshrc will create the resurrect dir automatically
+
+# 6. Start tmux — tpm will install plugins on first run, continuum will restore sessions
 ```
 
 ### Seeding the work profile from the committed session file
