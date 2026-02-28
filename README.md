@@ -114,3 +114,54 @@ dotfiles add ~/.tmux.conf
 dotfiles commit -m "update tmux config"
 dotfiles push
 ```
+
+---
+
+## Git aliases
+
+| Alias | Command | Description |
+|---|---|---|
+| `git dv` | `DiffviewOpen` | Open diff in nvim Diffview (accepts optional ref, e.g. `git dv HEAD~3`) |
+
+Works with `dotfiles` too: `dotfiles dv c16cd9b`
+
+---
+
+## Neovim keybindings
+
+### Diffview (git)
+
+| Key | Action |
+|---|---|
+| `<leader>gd` | Open diffview (diff against index) |
+| `<leader>gD` | Open diffview against a branch (prompts for name, tab-completes) |
+| `<leader>gq` | Close diffview |
+| `<leader>gs` | Toggle scroll sync between diff panes (only in diffview) |
+
+### Telescope
+
+| Key | Action |
+|---|---|
+| `<leader>fgb` | Find files by name |
+| `<leader>fg` | Live grep (search file contents) |
+| `<leader>fw` | Search workspace symbols (classes, functions, etc.) |
+| `<leader>ft` | Git files |
+| `<leader>fb` | Buffers |
+| `<leader>fh` | Help tags |
+
+### LSP (built-in Neovim 0.11)
+
+| Key | Action |
+|---|---|
+| `gd` | Go to definition |
+| `K` | Hover docs |
+| `grn` | Rename symbol |
+| `gra` | Code action |
+| `grr` | Find references |
+| `gri` | Go to implementation |
+
+### General
+
+| Key | Action |
+|---|---|
+| `-` | Open parent directory (Oil) |
