@@ -3,12 +3,14 @@
 
 [pull]
 	rebase = true
+	ff = only
 
 [init]
 	defaultBranch = master
 
 [push]
 	autoSetupRemote = true
+	default = current
 
 [core]
 	autocrlf = input
@@ -34,4 +36,4 @@
 	cmd = nvim -d "$LOCAL" "$REMOTE"
 
 [alias]
-	dv = !nvim -c "DiffviewOpen"
+	dv = "!f() { nvim -c \"DiffviewOpen $*\"; }; f"

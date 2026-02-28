@@ -185,3 +185,5 @@ if [ ! -d ~/.tmux/plugins/tpm ]; then
   git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 fi
 mkdir -p ~/.tmux/resurrect/$DOTFILE_PROFILE
+
+export OCX_PROFILE=work
