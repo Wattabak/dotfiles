@@ -122,6 +122,7 @@ alias bashrc="vi ~/.bashrc"
 # dotfiles
 export DOTFILES=$HOME/.dotfiles/
 alias dotfiles='/usr/bin/git --git-dir=$DOTFILES --work-tree=$HOME'
+export DOTFILE_PROFILE=$(cat ~/.dotfile-profile 2>/dev/null || echo "personal")
 
 # poetry
 export PATH=$PATH:$HOME/.poetry/bin
@@ -166,7 +167,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-. "$HOME/.local/bin/env"
+[ -f "$HOME/.local/bin/env" ] && . "$HOME/.local/bin/env"
 
 # pnpm
 export PNPM_HOME="~/Library/pnpm"
@@ -183,7 +184,4 @@ export PATH="/opt/homebrew/opt/postgresql@16/bin:$PATH"
 if [ ! -d ~/.tmux/plugins/tpm ]; then
   git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 fi
-# Resurrect symlink
-if [ ! -e ~/.tmux/resurrect ]; then
-  ln -sf ~/.dotfiles/tmux/resurrect ~/.tmux/resurrect
-fi
+mkdir -p ~/.tmux/resurrect/$DOTFILE_PROFILE
