@@ -37,6 +37,16 @@ vim.api.nvim_create_autocmd("WinLeave", {
   end
 })
 
+-- Diffview highlight overrides (syntax highlighting + subtle background tint)
+vim.api.nvim_create_autocmd("ColorScheme", {
+  callback = function()
+    vim.api.nvim_set_hl(0, "DiffviewDiffAdd", { bg = "#2a4a2a" })
+    vim.api.nvim_set_hl(0, "DiffviewDiffDelete", { bg = "#4a2a2a" })
+    vim.api.nvim_set_hl(0, "DiffviewDiffChange", { bg = "#2a3a4a" })
+    vim.api.nvim_set_hl(0, "DiffviewDiffText", { bg = "#3a4a5a" })
+  end,
+})
+
 -- Load custom module
 require("wattabak")
 
