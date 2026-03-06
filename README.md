@@ -137,6 +137,18 @@ Works with `dotfiles` too: `dotfiles dv c16cd9b`
 | `<leader>gD` | Open diffview against a branch (prompts for name, tab-completes) |
 | `<leader>gq` | Close diffview |
 | `<leader>gs` | Toggle scroll sync between diff panes (only in diffview) |
+| `<leader>gh` | File git history (current file) |
+| `<leader>gH` | Branch git log (all commits with diffs) |
+| `<leader>gr` | Stage all + continue rebase + close diffview |
+
+#### Conflict resolution commands
+
+| Command | Action |
+|---|---|
+| `:ConflictAcceptTheirs` | Accept theirs for all conflicts in current file |
+| `:ConflictAcceptAllTheirs` | Accept theirs for all conflicts in all files |
+| `do` | Pull hunk from other pane into current (built-in vim) |
+| `dp` | Push hunk from current pane to other (built-in vim) |
 
 ### Telescope
 
