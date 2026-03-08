@@ -26,6 +26,8 @@ return {
         "terraformls",
         "bashls",
         "yamlls",
+        "gopls",
+        "elixirls",
       })
       vim.api.nvim_create_autocmd("LspAttach", {
         callback = function(args)
