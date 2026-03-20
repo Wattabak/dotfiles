@@ -7,6 +7,20 @@ vim.keymap.set("n", "<leader>gD", ":DiffviewOpen ", { desc = "Diff against branc
 vim.keymap.set("n", "<leader>gh", "<CMD>DiffviewFileHistory %<CR>", { desc = "File git history" })
 vim.keymap.set("n", "<leader>gH", "<CMD>DiffviewFileHistory<CR>", { desc = "Branch git log" })
 vim.keymap.set("n", "<leader>gr", function()
+  -- Save all buffers so on-disk files reflect edits
+  vim.cmd("wall")
+  -- Abort if any conflicted file still has conflict markers
+  local conflicted = vim.fn.systemlist("git diff --name-only --diff-filter=U")
+  for _, file in ipairs(conflicted) do
+    local path = vim.fn.fnamemodify(file, ":p")
+    local contents = vim.fn.readfile(path)
+    for _, line in ipairs(contents) do
+      if line:match("^<<<<<<<") or line:match("^=======") or line:match("^>>>>>>>") then
+        vim.notify("Unresolved conflicts in: " .. file, vim.log.levels.ERROR)
+        return
+      end
+    end
+  end
   vim.cmd("!git add -A && GIT_EDITOR=true git rebase --continue")
   vim.cmd("DiffviewClose")
 end, { desc = "Stage all + continue rebase" })
