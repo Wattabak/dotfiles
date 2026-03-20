@@ -18,7 +18,7 @@ return {
       },
     },
     config = function()
-      vim.lsp.enable({
+      local servers = {
         "lua_ls",
         "pyright",
         "ts_ls",
@@ -28,7 +28,11 @@ return {
         "yamlls",
         "gopls",
         "elixirls",
-      })
+      }
+
+      require("mason").setup()
+      require("mason-lspconfig").setup({ ensure_installed = servers })
+      vim.lsp.enable(servers)
       vim.api.nvim_create_autocmd("LspAttach", {
         callback = function(args)
           local client = vim.lsp.get_client_by_id(args.data.client_id)

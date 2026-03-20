@@ -1,5 +1,6 @@
 local M = {
     "nvim-treesitter/nvim-treesitter",
+    main = "nvim-treesitter.configs",
     build = function()
         require("nvim-treesitter.install").update({ with_sync = true })()
     end,
@@ -19,6 +20,9 @@ local M = {
             "yaml",
             "html",
             "css",
+            "elixir",
+            "heex",
+            "go",
         },
         highlight = { enable = true },
     },
