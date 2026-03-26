@@ -16,7 +16,7 @@ return {
       keymaps = {
         view = {
           { "n", "<leader>gs", "<CMD>windo set scrollbind!<CR>", { desc = "Toggle diff scroll sync" } },
-          { "n", "dO", "<CMD>%diffget<CR>", { desc = "Obtain all diff hunks from other side" } },
+          { "n", "dO", "<CMD>%diffget | write<CR>", { desc = "Obtain all diff hunks from other side" } },
         },
       },
     },
