@@ -1,8 +1,14 @@
 return {
   "stevearc/oil.nvim",
-  dependencies = { "nvim-tree/nvim-web-devicons" },
+  dependencies = {
+    "nvim-tree/nvim-web-devicons",
+    "refractalize/oil-git-status.nvim",
+  },
   config = function(_, opts)
     require("oil").setup(opts)
+    require("oil-git-status").setup({
+      show_ignored = false,
+    })
     function _G.OilBreadcrumb()
       local ok, oil = pcall(require, "oil")
       if not ok then return "" end
@@ -43,6 +49,9 @@ return {
     -- "permissions",
     "size",
     "mtime",
+  },
+  win_options = {
+    signcolumn = "yes:2",
   },
   keymaps = {
 		  ["<C-p>"] = {"actions.preview", opts = {split = "botright"}},
