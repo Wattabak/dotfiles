@@ -1,0 +1,30 @@
+{
+  "model": "claude-fable-5[1m]",
+  "enabledPlugins": {
+    "pyright-lsp@claude-plugins-official": true,
+    "caveman@caveman": true
+  },
+  "extraKnownMarketplaces": {
+    "caveman": {
+      "source": {
+        "source": "github",
+        "repo": "JuliusBrussee/caveman"
+      }
+    }
+  },
+  "alwaysThinkingEnabled": true,
+  "effortLevel": "high",
+  "skipDangerousModePermissionPrompt": true,
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "name=\"$(tmux display-message -p '#S' 2>/dev/null || basename \"$PWD\")\"; name=\"${name//\\\"/}\"; osascript -e \"display notification \\\"$name — done\\\" with title \\\"Claude Code finished\\\"\" 2>/dev/null; afplay -v 4 /System/Library/Sounds/Submarine.aiff 2>/dev/null || true"
+          }
+        ]
+      }
+    ]
+  }
+}
