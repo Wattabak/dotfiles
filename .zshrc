@@ -158,10 +158,10 @@ export PGCLIENTENCODING="utf-8"
 export HOMEBREW_NO_AUTO_UPDATE=1
 
 # The next line updates PATH for the Google Cloud SDK.
-if [ -f '~/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '~/Downloads/google-cloud-sdk/path.zsh.inc'; fi
+if [ -f "$HOME/Downloads/google-cloud-sdk/path.zsh.inc" ]; then . "$HOME/Downloads/google-cloud-sdk/path.zsh.inc"; fi
 
 # The next line enables shell command completion for gcloud.
-if [ -f '~/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '~/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
+if [ -f "$HOME/Downloads/google-cloud-sdk/completion.zsh.inc" ]; then . "$HOME/Downloads/google-cloud-sdk/completion.zsh.inc"; fi
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
@@ -186,4 +186,9 @@ if [ ! -d ~/.tmux/plugins/tpm ]; then
 fi
 mkdir -p ~/.tmux/resurrect/$DOTFILE_PROFILE
 
-export OCX_PROFILE=work
+# opencode (ocx) profile follows the dotfile profile; non-work machines use the shared "default"
+if [ "$DOTFILE_PROFILE" = "work" ]; then
+  export OCX_PROFILE=work
+else
+  export OCX_PROFILE=default
+fi
