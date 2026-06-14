@@ -170,7 +170,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -f "$HOME/.local/bin/env" ] && . "$HOME/.local/bin/env"
 
 # pnpm
-export PNPM_HOME="~/Library/pnpm"
+export PNPM_HOME="$HOME/Library/pnpm"
 case ":$PATH:" in
   *":$PNPM_HOME:"*) ;;
   *) export PATH="$PNPM_HOME:$PATH" ;;
@@ -192,3 +192,9 @@ if [ "$DOTFILE_PROFILE" = "work" ]; then
 else
   export OCX_PROFILE=default
 fi
+
+# opencode
+export PATH=/Users/vladtabakov/.opencode/bin:$PATH
+
+# Profile-specific config (~/.dotfile-profile -> work|personal)
+[ -f ~/.zshrc.$DOTFILE_PROFILE ] && source ~/.zshrc.$DOTFILE_PROFILE
