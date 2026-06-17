@@ -1,7 +1,7 @@
 #!/bin/bash
 # Cortea statusline: shows the current dir, git branch, and — when inside a cortea
 # checkout — that worktree's isolated frontend localhost link (derived from
-# compose.override.yaml). Preserves the caveman badge by invoking its script.
+# compose.override.yaml).
 
 input=$(cat)
 
@@ -35,10 +35,7 @@ fi
 
 branch=$(git -C "$cwd" rev-parse --abbrev-ref HEAD 2>/dev/null)
 
-cave=$(bash "$HOME/.claude/plugins/cache/caveman/caveman/84cc3c14fa1e/hooks/caveman-statusline.sh" </dev/null 2>/dev/null)
-
 out=$(printf '\033[1m%s\033[0m' "$(basename "$cwd")")
 [ -n "$branch" ] && out="$out $(printf '\033[38;5;245m⎇ %s\033[0m' "$branch")"
 [ -n "$cortea_seg" ] && out="$out │ $cortea_seg"
-[ -n "$cave" ] && out="$out $cave"
 printf '%s' "$out"
