@@ -5,7 +5,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "input=\"$(cat)\"; sid=\"$(printf '%s' \"$input\" | sed -n 's/.*\"session_id\"[[:space:]]*:[[:space:]]*\"\\([^\"]*\\)\".*/\\1/p')\"; [ -z \"$sid\" ] && sid=\"$$\"; m=\"/tmp/cc-notified-${sid}\"; if [ -f \"$m\" ]; then rm -f \"$m\"; exit 0; fi; name=\"$(tmux display-message -p '#S' 2>/dev/null || basename \"$PWD\")\"; name=\"${name//\\\"/}\"; osascript -e \"display notification \\\"$name — done\\\" with title \\\"Claude Code finished\\\"\" 2>/dev/null; afplay -v 4 /System/Library/Sounds/Submarine.aiff 2>/dev/null || true"
+            "command": "input=\"$(cat)\"; sid=\"$(printf '%s' \"$input\" | sed -n 's/.*\"session_id\"[[:space:]]*:[[:space:]]*\"\\([^\"]*\\)\".*/\\1/p')\"; [ -z \"$sid\" ] && sid=\"$$\"; m=\"/tmp/cc-notified-${sid}\"; if [ -f \"$m\" ]; then rm -f \"$m\"; exit 0; fi; name=\"$(tmux display-message -p '#S' 2>/dev/null || basename \"$PWD\")\"; name=\"${name//\\\"/}\"; osascript -e \"display notification \\\"$name \u2014 done\\\" with title \\\"Claude Code finished\\\"\" 2>/dev/null; afplay -v 4 /System/Library/Sounds/Submarine.aiff 2>/dev/null || true"
           }
         ]
       }
@@ -15,7 +15,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "input=\"$(cat)\"; sid=\"$(printf '%s' \"$input\" | sed -n 's/.*\"session_id\"[[:space:]]*:[[:space:]]*\"\\([^\"]*\\)\".*/\\1/p')\"; [ -z \"$sid\" ] && sid=\"$$\"; touch \"/tmp/cc-notified-${sid}\"; name=\"$(tmux display-message -p '#S' 2>/dev/null || basename \"$PWD\")\"; name=\"${name//\\\"/}\"; osascript -e \"display notification \\\"$name — needs input\\\" with title \\\"Claude Code waiting\\\"\" 2>/dev/null; afplay -v 4 /System/Library/Sounds/Funk.aiff 2>/dev/null || true"
+            "command": "input=\"$(cat)\"; sid=\"$(printf '%s' \"$input\" | sed -n 's/.*\"session_id\"[[:space:]]*:[[:space:]]*\"\\([^\"]*\\)\".*/\\1/p')\"; [ -z \"$sid\" ] && sid=\"$$\"; touch \"/tmp/cc-notified-${sid}\"; name=\"$(tmux display-message -p '#S' 2>/dev/null || basename \"$PWD\")\"; name=\"${name//\\\"/}\"; osascript -e \"display notification \\\"$name \u2014 needs input\\\" with title \\\"Claude Code waiting\\\"\" 2>/dev/null; afplay -v 4 /System/Library/Sounds/Funk.aiff 2>/dev/null || true"
           }
         ]
       }
@@ -39,5 +39,11 @@
   "statusLine": {
     "type": "command",
     "command": "bash \"$HOME/.claude/statusline-cortea.sh\""
+  },
+  "permissions": {
+    "defaultMode": "bypassPermissions"
+  },
+  "worktree": {
+    "bgIsolation": "none"
   }
 }
