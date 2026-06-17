@@ -9,6 +9,16 @@
           }
         ]
       }
+    ],
+    "Notification": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "name=\"$(tmux display-message -p '#S' 2>/dev/null || basename \"$PWD\")\"; name=\"${name//\\\"/}\"; osascript -e \"display notification \\\"$name — needs input\\\" with title \\\"Claude Code waiting\\\"\" 2>/dev/null; afplay -v 4 /System/Library/Sounds/Funk.aiff 2>/dev/null || true"
+          }
+        ]
+      }
     ]
   },
   "enabledPlugins": {
