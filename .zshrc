@@ -198,3 +198,7 @@ export PATH=/Users/vladtabakov/.opencode/bin:$PATH
 
 # Profile-specific config (~/.dotfile-profile -> work|personal)
 [ -f ~/.zshrc.$DOTFILE_PROFILE ] && source ~/.zshrc.$DOTFILE_PROFILE
+
+# direnv: auto-load per-folder .envrc (cortea worktree isolation). Keep last.
+export DIRENV_LOG_FORMAT=""   # silence "direnv: export +VAR..." spam on cd
+eval "$(direnv hook zsh)"
